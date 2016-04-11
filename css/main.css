@@ -1,0 +1,211 @@
+/*Darkest	 #363636*/
+/*Dark		 #464646*/
+/*Regular	 #636363*/
+/*Light		 #898989*/
+/*Highlight	 #fb6f49*/
+/*Highlight2 #db6140*/
+/* =============================================================================
+  GENERAL
+============================================================================= */
+*{
+    border: 0;
+    margin: 0;
+    padding:0;
+}
+a,p,h1,h2,h3,h4,h5,h6{font-family: 'Roboto Slab'}
+p{font-size: 0.9rem}
+a{
+    text-decoration: none;
+}
+/* =============================================================================
+  FONTS
+============================================================================= */
+h1{
+    font-size: 4rem;
+    color: #636363;
+    font-weight: 300;
+}
+h1 span{
+    color: #fb6f49;
+}
+/* =============================================================================
+  NAVIGATION
+============================================================================= */
+nav{
+    width: 100%;
+    background-color: rgba(236,240,241,0.9);
+    position: fixed;
+}
+nav ul{
+    list-style-type: none;
+    overflow: hidden;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    display: inline-block;
+    color: #363636;
+    text-align: center;
+    padding: 1rem;
+}
+nav ul li:first-child a{
+    padding: 0.6rem 1rem 0 0;
+}
+#navlogo{
+    width: 2rem;
+}
+nav ul li:first-child a:hover{
+    background-color: #ecf0f1;
+}
+nav ul li:hover{
+    background-color: #bdc3c7;
+}
+/* =============================================================================
+  HEADER
+============================================================================= */
+#coverpic{
+    height: 100vh;
+    background: #ecf0f1 url("../img/mac-glasses.jpg") no-repeat center;
+    background-size: cover;
+}
+#coverpic section{
+    margin: 0 auto;
+    padding: 25vh 0 0 0;
+    text-align: center;
+}
+#coverpic a {
+    width: 55px;
+    height: 35px;
+    margin: 0 auto;
+    background: url("../img/ui/down_arrow.png") no-repeat center;
+    background-size: cover;
+    display: inline-block;
+    -webkit-transition:background 250ms;
+    -moz-transition:background 250ms;
+    -ms-transition:background 250ms;
+    -o-transition:background 250ms;
+    transition:background 250ms;
+}
+#coverpic a:hover{
+    background: url("../img/ui/down_arrow_hover.png") no-repeat center;
+    background-size: cover;
+}
+/* =============================================================================
+  PRIMARY LAYOUT STUFF
+============================================================================= */
+section{
+    width: 100vw;
+    min-height: 100vh;
+    max-width:100%;
+}
+section:nth-child(even){
+    background-color: #ecf0f1;
+}
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 5rem 0 0 0;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    flex:1;
+}
+.center{
+    text-align: center;
+}
+/* =============================================================================
+  BLOG
+============================================================================= */
+.card{
+    max-width: 300px;
+    margin: 0 auto 40px auto;
+    padding: 0rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    background-color: #ecf0f1;
+    overflow: hidden;
+}
+.pic{
+    width: 100%;
+    height: 200px;
+}
+.one{
+    background: #fb6f49 url("../img/blog1.jpg") no-repeat center / cover;
+}
+.two{
+    background: #fb6f49 url("../img/blog2.jpg") no-repeat center / cover;
+}
+.three{
+    background: #fb6f49 url("../img/blog3.jpg") no-repeat center / cover;
+}
+.details{
+    padding: 1rem 1.5rem;
+    text-align: left;
+}
+.details h5{
+    color: #929697;
+}
+.details h2{
+    margin: 2rem 0 1rem 0;
+    font-family: Roboto;
+    color: #191919;
+}
+.details .center{text-align: center}
+button{
+    margin: 2rem 0 1rem 0;
+    padding: 0.7rem 1.7rem;
+    border: 3px solid #fb6f49;
+    background: 0;
+    -webkit-transition: 250ms;
+    -moz-transition: 250ms;
+    -ms-transition: 250ms;
+    -o-transition: 250ms;
+    transition: 250ms;
+}
+button:hover{
+    border: 3px solid transparent;
+    background-color: #fb6f49;
+    color: #ecf0f1;
+}
+/* =============================================================================
+  PROJECTS
+============================================================================= */
+.project {
+    margin: 0 auto;
+    padding: 1rem 1rem 5rem 1rem;
+    text-align: center;
+}
+.project i{
+    color: #636363;
+}
+.project h1{
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 2rem 0 2rem 0;
+}
+.project h1 span{
+    font-weight: 300;
+}
+.project p{
+    margin: 1rem 0 1rem 0;
+}
+/* =============================================================================
+  ABOUT
+============================================================================= */
+.about{
+    text-align: center;
+}
+.about img{
+
+}
+/* =============================================================================
+  RESPONSIVE
+============================================================================= */
+@media (max-width: 600px) {
+}

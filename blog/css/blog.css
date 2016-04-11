@@ -1,0 +1,98 @@
+/*Darkest	 #363636*/
+/*Dark		 #464646*/
+/*Regular	 #636363*/
+/*Light		 #898989*/
+/*Highlight	 #fb6f49*/
+/*Highlight2 #db6140*/
+/* =============================================================================
+  GENERAL
+============================================================================= */
+*{
+    border: 0;
+    margin: 0;
+    padding:0;
+}
+a,p,h1,h2,h3,h4,h5,h6{font-family: 'Roboto Slab'}
+p{font-size: 0.9rem}
+a{
+    text-decoration: none;
+}
+/* =============================================================================
+  FONTS
+============================================================================= */
+h1{
+    font-size: 4rem;
+    color: #636363;
+    font-weight: 300;
+}
+h1 span{
+    color: #fb6f49;
+}
+/* =============================================================================
+  NAVIGATION
+============================================================================= */
+nav{
+    width: 100%;
+    background-color: rgba(236,240,241,0.9);
+    position: fixed;
+}
+nav ul{
+    list-style-type: none;
+    overflow: hidden;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    display: inline-block;
+    color: #363636;
+    text-align: center;
+    padding: 1rem;
+}
+nav ul li:first-child a{
+    padding: 0.6rem 1rem 0 0;
+}
+#navlogo{
+    width: 2rem;
+}
+nav ul li:first-child a:hover{
+    background-color: #ecf0f1;
+}
+nav ul li:hover{
+    background-color: #bdc3c7;
+}
+/* =============================================================================
+  HEADER
+============================================================================= */
+#coverpic{
+    height: 100vh;
+    background: #ecf0f1 url("../../img/mac-glasses.jpg") no-repeat center;
+    background-size: cover;
+}
+#coverpic section{
+    margin: 0 auto;
+    padding: 25vh 0 0 0;
+    text-align: center;
+}
+#coverpic a {
+    width: 55px;
+    height: 35px;
+    margin: 0 auto;
+    background: url("../../img/ui/down_arrow.png") no-repeat center;
+    background-size: cover;
+    display: inline-block;
+    -webkit-transition:background 250ms;
+    -moz-transition:background 250ms;
+    -ms-transition:background 250ms;
+    -o-transition:background 250ms;
+    transition:background 250ms;
+}
+#coverpic a:hover{
+    background: url("../../img/ui/down_arrow_hover.png") no-repeat center;
+    background-size: cover;
+}
+/* =============================================================================
+  PRIMARY LAYOUT STUFF
+============================================================================= */
