@@ -42,9 +42,15 @@ $(function() {
     var pull        = $('#pull');
         menu        = $('nav ul');
         menuHeight  = menu.height();
+        menuButton  = $('a#menuButton');
  
     $(pull).on('click', function(e) {
         e.preventDefault();
-        menu.slideToggle();
+        menu.slideToggle(300);
+    });
+
+    $(menuButton).on('click', function(e) {
+        e.preventDefault();
+        menu.slideToggle(300);
     });
 });

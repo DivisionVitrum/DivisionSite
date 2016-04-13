@@ -275,9 +275,6 @@ nav a#pull {
         height: 40px;
         vertical-align: center;
     }
-    #pull p {
-        margin-top: 10px;
-    }
     #pull span {
         color: #fb6f49;
     }
@@ -302,4 +299,4 @@ nav a#pull {
     nav li a {
         border-bottom: 1px solid #576979;
     }
-} 
+}
