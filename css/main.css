@@ -223,19 +223,38 @@ nav a#pull {
     display: none;
 } 
 
-@media screen and (max-width: 600px) {
-    nav { 
-        height: auto;
+@media screen and (max-width : 600px) {
+    nav {
+        border-bottom: 0;
     }
     nav ul {
-        width: 100%;
-        display: block;
+        display: none;
         height: auto;
     }
-    nav li {
-        width: 25%;
-        float: left;
+    nav a#pull {
+        display: block;
+        width: 100%;
         position: relative;
+        color: #636363;
+        background-color: #ecf0f1;
+        height: 40px;
+        vertical-align: center;
+    }
+    #pull p {
+        padding: 10px;
+    }
+    #pull span {
+        color: #fb6f49;
+    }
+    nav a#pull:after {
+        content:"";
+        background: url('../img/nav-icon.png') no-repeat;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        position: absolute;
+        right: 15px;
+        top: 10px;
     }
 }
 
@@ -255,6 +274,9 @@ nav a#pull {
         background-color: #ecf0f1;
         height: 40px;
         vertical-align: center;
+    }
+    #pull p {
+        margin-top: 10px;
     }
     #pull span {
         color: #fb6f49;
