@@ -149,7 +149,7 @@ section:nth-child(even){
     background: #fb6f49 url("../img/blog3.jpg") no-repeat center / cover;
 }
 .details{
-    padding: 1rem 1.5rem;
+    padding: 1rem 3.5rem;
     text-align: left;
 }
 .details h5{
