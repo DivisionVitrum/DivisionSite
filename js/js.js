@@ -48,9 +48,4 @@ $(function() {
         e.preventDefault();
         menu.slideToggle(300);
     });
-
-    $(menuButton).on('click', function(e) {
-        e.preventDefault();
-        menu.slideToggle(300);
-    });
 });
