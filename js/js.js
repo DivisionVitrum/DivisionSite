@@ -13,7 +13,7 @@ $('a[href^="#"]').on('click', function(event) {
 function init() {
     loop();
     setBlog('18 April 2016', '2 Mei 2016', '7 Augustus 2016');
-};
+}
 
 function loop() {
     $('#arrow').css({
@@ -40,20 +40,19 @@ function setBlog(date1, date2, date3) {
 
 $(function() {
     var pull        = $('#pull');
-        menu        = $('nav ul');
-        menuHeight  = menu.height();
-        menuButton  = $('a#responsiveMenu');
- 
+    var menu        = $('nav ul');
+    var menuButton  = $('a#responsiveMenu');
+    var icon        = $('#nav-icon3');
+
     $(pull).on('click', function(e) {
         e.preventDefault();
         menu.slideToggle(300);
+        icon.toggleClass('open');
     });
-<<<<<<< HEAD
 
     $(menuButton).on('click', function(e) {
         e.preventDefault();
         menu.slideToggle(300);
+        icon.toggleClass('open');
     });
-=======
->>>>>>> origin/Responsive-menu
 });
