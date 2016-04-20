@@ -48,9 +48,12 @@ $(function() {
         e.preventDefault();
         menu.slideToggle(300);
     });
+<<<<<<< HEAD
 
     $(menuButton).on('click', function(e) {
         e.preventDefault();
         menu.slideToggle(300);
     });
+=======
+>>>>>>> origin/Responsive-menu
 });
