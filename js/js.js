@@ -36,4 +36,24 @@ function setBlog(date1, date2, date3) {
     dateOne.innerHTML = date1;
     dateTwo.innerHTML = date2;
     dateThree.innerHTML = date3;
-}
+};
+
+$(function() {
+    var pull        = $('#pull');
+        menu        = $('nav ul');
+        menuHeight  = menu.height();
+        menuButton  = $('a#responsiveMenu');
+ 
+    $(pull).on('click', function(e) {
+        e.preventDefault();
+        menu.slideToggle(300);
+    });
+<<<<<<< HEAD
+
+    $(menuButton).on('click', function(e) {
+        e.preventDefault();
+        menu.slideToggle(300);
+    });
+=======
+>>>>>>> origin/Responsive-menu
+});

@@ -63,6 +63,10 @@ nav ul li:first-child a:hover{
 nav ul li:hover{
     background-color: #bdc3c7;
 }
+
+#responsiveMenu {
+    display: none;
+}
 /* =============================================================================
   HEADER
 ============================================================================= */
@@ -145,7 +149,7 @@ section:nth-child(even){
     background: #fb6f49 url("../img/blog3.jpg") no-repeat center / cover;
 }
 .details{
-    padding: 1rem 1.5rem;
+    padding: 1rem 3.5rem;
     text-align: left;
 }
 .details h5{
@@ -207,5 +211,119 @@ button:hover{
 /* =============================================================================
   RESPONSIVE
 ============================================================================= */
-@media (max-width: 600px) {
+/* Menu */
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+nav a#pull {
+    display: none;
+} 
+
+@media screen and (max-width : 600px) {
+    #responsiveMenu {
+        display: block;
+    }
+    #main {
+        display: none;
+    }
+    nav {
+        border-bottom: 0;
+    }
+    nav ul {
+        display: none;
+        height: auto;
+    }
+    nav a#pull {
+        display: block;
+        width: 100%;
+        position: relative;
+        color: #636363;
+        background-color: #ecf0f1;
+        height: 40px;
+        vertical-align: center;
+    }
+    #pull p {
+        padding: 10px;
+    }
+    #pull span {
+        color: #fb6f49;
+    }
+    nav a#pull:after {
+        content:"";
+        background: url('../img/nav-icon.png') no-repeat;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        position: absolute;
+        right: 15px;
+        top: 10px;
+    }
+    nav li {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    nav li a {
+        border-bottom: 1px solid #576979;
+    }
+}
+}
+
+@media only screen and (max-width : 480px) {
+    nav {
+        border-bottom: 0;
+    }
+    nav ul {
+        display: none;
+        height: auto;
+    }
+    nav a#pull {
+        display: block;
+        width: 100%;
+        position: relative;
+        color: #636363;
+        background-color: #ecf0f1;
+        height: 40px;
+        vertical-align: center;
+    }
+    #pull span {
+        color: #fb6f49;
+    }
+    nav a#pull:after {
+        content:"";
+        background: url('../img/nav-icon.png') no-repeat;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        position: absolute;
+        right: 15px;
+        top: 10px;
+    }
+    nav li {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    nav li a {
+        border-bottom: 1px solid #576979;
+    }
+}
+
+@media only screen and (max-width : 320px) {
+    nav li {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    nav li a {
+        border-bottom: 1px solid #576979;
+    }
 }
