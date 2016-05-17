@@ -120,13 +120,20 @@ section:nth-child(even){
 .box{
     flex:1;
 }
+.padding{
+    padding: 0 10px;
+}
 .center{
+    text-align: center;
+}
+.title{
     text-align: center;
 }
 /* =============================================================================
   BLOG
 ============================================================================= */
 .card{
+    /*width: 300px;*/
     max-width: 300px;
     margin: 0 auto 40px auto;
     padding: 0rem;
@@ -149,7 +156,7 @@ section:nth-child(even){
     background: #fb6f49 url("../img/blog3.jpg") no-repeat center / cover;
 }
 .details{
-    padding: 1rem 3.5rem;
+    padding: 1rem 10%;
     text-align: left;
 }
 .details h5{
@@ -205,9 +212,36 @@ button:hover{
 .about{
     text-align: center;
 }
-.about img{
+.about h1{
 
 }
+
+/* =============================================================================
+  CONTACT
+============================================================================= */
+.contactForm input, textarea {
+    width: 100%;
+    resize: none;
+    padding: 0px 10px;
+    height: 45px;
+    margin: 5px 0px;
+    box-sizing: border-box;
+    transition: border-color .2s ease;
+    border-color: #fb6f49;
+}
+
+.contactForm .container {
+    width: 700px;
+}
+
+.contactForm textarea {
+    width: 100%;
+    float: left;
+    padding: 10px;
+    height: 200px;
+    overflow: auto; 
+}
+
 /* =============================================================================
   RESPONSIVE
 ============================================================================= */
@@ -225,7 +259,7 @@ button:hover{
 
 nav a#pull {
     display: none;
-} 
+}
 
 @media screen and (max-width : 600px) {
     #responsiveMenu {
@@ -258,17 +292,17 @@ nav a#pull {
         color: #fb6f49;
     }
     /*nav a#pull:after {*/
-        /*content:"";*/
-        /*background: url('../img/ui/nav-icon.png') no-repeat;*/
-        /*width: 30px;*/
-        /*height: 30px;*/
-        /*display: inline-block;*/
-        /*position: absolute;*/
-        /*right: 15px;*/
-        /*top: 10px;*/
+    /*content:"";*/
+    /*background: url('../img/ui/nav-icon.png') no-repeat;*/
+    /*width: 30px;*/
+    /*height: 30px;*/
+    /*display: inline-block;*/
+    /*position: absolute;*/
+    /*right: 15px;*/
+    /*top: 10px;*/
     /*}*/
     /*nav a#pull.up:after {*/
-        /*background: url('../img/ui/nav-icon-up.png') no-repeat;*/
+    /*background: url('../img/ui/nav-icon-up.png') no-repeat;*/
     /*}*/
     nav li {
         display: block;
@@ -277,6 +311,9 @@ nav a#pull {
     }
     nav li a {
         border-bottom: 1px solid #576979;
+    }
+    .row {
+        flex-direction: column;
     }
 }
 
@@ -301,17 +338,17 @@ nav a#pull {
         color: #fb6f49;
     }
     /*nav a#pull:after {*/
-        /*content:"";*/
-        /*background: url('../img/ui/nav-icon.png') no-repeat;*/
-        /*width: 30px;*/
-        /*height: 30px;*/
-        /*display: inline-block;*/
-        /*position: absolute;*/
-        /*right: 15px;*/
-        /*top: 10px;*/
+    /*content:"";*/
+    /*background: url('../img/ui/nav-icon.png') no-repeat;*/
+    /*width: 30px;*/
+    /*height: 30px;*/
+    /*display: inline-block;*/
+    /*position: absolute;*/
+    /*right: 15px;*/
+    /*top: 10px;*/
     /*}*/
     /*nav a#pull.up:after {*/
-        /*background: url('../img/ui/nav-icon-up.png') no-repeat;*/
+    /*background: url('../img/ui/nav-icon-up.png') no-repeat;*/
     /*}*/
     nav li {
         display: block;
@@ -400,4 +437,36 @@ nav a#pull {
     top: 18px;
     width: 0%;
     left: -10px;
+}
+
+
+svg {
+    max-width: 15vw;
+    margin:0 auto;
+}
+
+svg polyline, svg linearGradient, svg polygon, svg path, svg line, svg circle {
+    fill-opacity: 0;
+    stroke: #000;
+    stroke-width: 3;
+    stroke-dasharray: 870;
+    stroke-dashoffset: 870;
+    animation: draw 4s 1 cubic-bezier(0.54, 0.21, 0.1, 0.71) forwards;
+    animation-delay: 1s;
+}
+.st0,.st1,.st2{
+    animation-delay: 2s;
+}
+.st3,.st4,.st5{
+    animation-delay: 4s;
+}
+.st6,.st7{
+    stroke-dasharray: 800;
+    stroke-dashoffset: 800;
+    animation: draw 3s 1 cubic-bezier(0.54, 0.21, 0.1, 0.71) forwards;
+}
+@keyframes draw {
+    to {
+        stroke-dashoffset: 0;
+    }
 }
