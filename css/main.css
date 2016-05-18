@@ -32,7 +32,7 @@ h1 span{
   NAVIGATION
 ============================================================================= */
 nav{
-    width: 100vw;
+    width: 100%;
     background-color: rgba(236,240,241,0.9);
     position: fixed;
 }
@@ -223,7 +223,8 @@ button:hover{
   CONTACT
 ============================================================================= */
 .contactForm input, textarea {
-    width: 100%;
+    width: 90vw;
+    max-width: 1000px;
     resize: none;
     padding: 0px 10px;
     height: 45px;
@@ -232,14 +233,12 @@ button:hover{
     transition: border-color .2s ease;
     border-color: #fb6f49;
 }
-
 .contactForm .container {
-    width: 700px;
+    text-align: center;
 }
-
 .contactForm textarea {
-    width: 100%;
-    float: left;
+    width: 90vw;
+    max-width: 1000px;
     padding: 10px;
     height: 200px;
     overflow: auto; 
