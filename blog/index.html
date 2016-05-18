@@ -38,104 +38,40 @@
     <![endif]-->
 </head>
 <body>
-<nav>
-    <ul>
-        <li><a href="#1"><img id="navlogo" src="../img/V_Logo_Small.png"></a></li>
-        <li><a href="#2">About</a></li>
-        <li><a href="#1">Contact</a></li>
+<nav class="clearfix">
+    <ul class="clearfix">
+        <li><a href="#coverpic" id="main"><img id="navlogo" src="../img/V_Logo_Small.png"></a></li>
+        <li><a href="#blog" id="main" class="active">Blog</a></li>
+        <li><a href="#projecten" id="main">Projecten</a></li>
+        <li><a href="#dv" id="main">Over</a></li>
+        <li><a href="#contact" id="main">Contact</a></li>
+
+        <!-- Responsive menu, wordt getoond op tablet/mobiel -->
+        <li><a href="#coverpic" id="responsiveMenu"><img id="navlogo" src="../img/V_Logo_Small.png"></a></li>
+        <li><a href="#blog" id="responsiveMenu" class="active">Blog</a></li>
+        <li><a href="#projecten" id="responsiveMenu">Projecten</a></li>
+        <li><a href="#dv" id="responsiveMenu">Over</a></li>
+        <li><a href="#contact" id="responsiveMenu">Contact</a></li>
     </ul>
+    <a href="#" id="pull">
+        <p>Division <span>Vitrum</span></p>
+        <div id="nav-icon3">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </a>
 </nav>
 <header>
     <div id="coverpic">
         <section>
             <img src="../img/V_Logo_Small.png" alt="">
             <h1>Division <span>Vitrum</span></h1>
-            <a id="arrow" href="#blog"></a>
+            <h2>Blog</h2>
         </section>
     </div>
 </header>
-<section id="blog">
-    <div class="container">
-        <div class="title">
-            <h1>Blog</h1>
-        </div>
-        <div class="row">
-            <div class="box">
-                <div class="card">
-                    <div class="pic one"></div>
-                    <div class="details">
-                        <h5></h5>
-                        <h2>Node JS Project</h2>
-                        <p>Waar houden wij ons zoal mee bezig? Test tekst paard hoofd idee ook bert, ari punt school fles muis kaas fiets</p>
-                        <div class="center"><button>Lees meer!</button></div>
-                    </div>
-                </div>
-            </div>
-            <div class="box">
-                <div class="card">
-                    <div class="pic two"></div>
-                    <div class="details">
-                        <h5></h5>
-                        <h2>Arduino Poject</h2>
-                        <p>Waar houden wij ons zoal mee bezig? Test tekst paard hoofd idee ook bert, ari punt school fles muis kaas fiets</p>
-                        <div class="center"><button>Lees meer!</button></div>
-                    </div>
-                </div>
-            </div>
-            <div class="box">
-                <div class="card">
-                    <div class="pic three"></div>
-                    <div class="details">
-                        <h5></h5>
-                        <h2>PHP Poject</h2>
-                        <p>Waar houden wij ons zoal mee bezig? Test tekst paard hoofd idee ook bert, ari punt school fles muis kaas fiets</p>
-                        <div class="center"><button>Lees meer!</button></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section>
-    <div class="container">
-        <div class="title">
-            <h1>Projecten</h1>
-        </div>
-        <div class="row">
-            <div class="box">
-                <div class="project">
-                    <i class="fa fa-television fa-5x"></i>
-                    <h1>Voet en <span>Los</span></h1>
-                    <p>Dit was een leuk project voor een mevrouw, hiervoor moesten wij een responsive website maken. Het werd uiteindelijk een mooi product waarop we trots konden zijn</p>
-                    <button>Bekijk de website!</button>
-                </div>
-            </div>
-            <div class="box">
-                <div class="project">
-                    <i class="fa fa-folder-o fa-5x"></i>
-                    <h1>Voet en <span>Los</span></h1>
-                    <p>Dit was een leuk project voor een mevrouw, hiervoor moesten wij een responsive website maken. Het werd uiteindelijk een mooi product waarop we trots konden zijn</p>
-                    <button>Bekijk de website!</button>
-                </div>
-            </div>
-            <div class="box">
-                <div class="project">
-                    <i class="fa fa-building-o fa-5x"></i>
-                    <h1>Voet en <span>Los</span></h1>
-                    <p>Dit was een leuk project voor een mevrouw, hiervoor moesten wij een responsive website maken. Het werd uiteindelijk een mooi product waarop we trots konden zijn</p>
-                    <button>Bekijk de website!</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section>
-    <div class="container about">
-        <img src="../img/V_Logo_Small.png" alt="">
-        <h1>Division <span>Vitrum</span></h1>
-        <img src="../img/ui/down_arrow.png" alt="">
-    </div>
-</section>
 <script src="../js/jquery.min.js"></script>
 <!--<script src="../js/js.js"></script>-->
 </body>

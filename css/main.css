@@ -32,7 +32,7 @@ h1 span{
   NAVIGATION
 ============================================================================= */
 nav{
-    width: 100%;
+    width: 100vw;
     background-color: rgba(236,240,241,0.9);
     position: fixed;
 }
@@ -63,7 +63,10 @@ nav ul li:first-child a:hover{
 nav ul li:hover{
     background-color: #bdc3c7;
 }
-
+.active{
+    background-color: #bdc3c7;
+}
+/*---responsive menu---*/
 #responsiveMenu {
     display: none;
 }
@@ -245,7 +248,6 @@ button:hover{
 /* =============================================================================
   RESPONSIVE
 ============================================================================= */
-/* Menu */
 .clearfix:before, .clearfix:after {
     content: " ";
     display: table;
@@ -291,19 +293,6 @@ nav a#pull {
     #pull span {
         color: #fb6f49;
     }
-    /*nav a#pull:after {*/
-    /*content:"";*/
-    /*background: url('../img/ui/nav-icon.png') no-repeat;*/
-    /*width: 30px;*/
-    /*height: 30px;*/
-    /*display: inline-block;*/
-    /*position: absolute;*/
-    /*right: 15px;*/
-    /*top: 10px;*/
-    /*}*/
-    /*nav a#pull.up:after {*/
-    /*background: url('../img/ui/nav-icon-up.png') no-repeat;*/
-    /*}*/
     nav li {
         display: block;
         float: none;
@@ -337,19 +326,6 @@ nav a#pull {
     #pull span {
         color: #fb6f49;
     }
-    /*nav a#pull:after {*/
-    /*content:"";*/
-    /*background: url('../img/ui/nav-icon.png') no-repeat;*/
-    /*width: 30px;*/
-    /*height: 30px;*/
-    /*display: inline-block;*/
-    /*position: absolute;*/
-    /*right: 15px;*/
-    /*top: 10px;*/
-    /*}*/
-    /*nav a#pull.up:after {*/
-    /*background: url('../img/ui/nav-icon-up.png') no-repeat;*/
-    /*}*/
     nav li {
         display: block;
         float: none;
@@ -370,8 +346,9 @@ nav a#pull {
         border-bottom: 1px solid #576979;
     }
 }
-
-/* TEST ICON */
+/* =============================================================================
+  NAV ICON
+============================================================================= */
 #nav-icon3 {
     width: 20px;
     position: relative;
@@ -438,8 +415,9 @@ nav a#pull {
     width: 0%;
     left: -10px;
 }
-
-
+/* =============================================================================
+  SVG
+============================================================================= */
 svg {
     max-width: 15vw;
     margin:0 auto;
