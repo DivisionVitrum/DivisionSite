@@ -49,6 +49,7 @@ $(function() {
     });
 });
 ///hover active
+var arrow = $('#arrow');
 var sections = $('section');
 var nav = $('nav');
 var nav_height = nav.outerHeight();
@@ -74,4 +75,12 @@ $('a[href^="#"]').on('click', function(event) {
             scrollTop: target.offset().top
         }, 1000);
     }
+});
+arrow.on('click', function () {
+    var $el = $(this);
+    var id = $el.attr('href');
+    $('html, body').animate({
+        scrollTop: $(id).offset().top - nav_height
+    }, 1000);
+    return false;
 });
