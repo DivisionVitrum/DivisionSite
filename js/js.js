@@ -66,12 +66,12 @@ $(window).on('scroll', function () {
         }
     });
 });
-nav.find('a').on('click', function () {
-    var $el = $(this);
-    var id = $el.attr('href');
-
-    $('html, body').animate({
-        scrollTop: $(id).offset().top - nav_height
-    }, 1000);
-    return false;
+$('a[href^="#"]').on('click', function(event) {
+    var target = $( $(this).attr('href') );
+    if( target.length ) {
+        event.preventDefault();
+        $('html, body').animate({
+            scrollTop: target.offset().top
+        }, 1000);
+    }
 });
