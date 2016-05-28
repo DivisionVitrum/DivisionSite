@@ -17,6 +17,9 @@ p{font-size: 0.9rem}
 a{
     text-decoration: none;
 }
+ul{
+    list-style: none;
+}
 /* =============================================================================
   FONTS
 ============================================================================= */
@@ -79,8 +82,8 @@ nav ul li:hover{
   HEADER
 ============================================================================= */
 #coverpic{
-    height: 80vh;
-    background: #ecf0f1 url("../../img/mac-glasses.jpg") no-repeat center;
+    height: 100vh;
+    background: #ecf0f1 url("../../img/blog2.jpg") no-repeat center;
     background-size: cover;
 }
 #coverpic section{
@@ -91,35 +94,30 @@ nav ul li:hover{
 /* =============================================================================
   PRIMARY LAYOUT STUFF
 ============================================================================= */
-#masonry{
+#masonry {
+    -moz-column-width: 13em;
+    -webkit-column-width: 13em;
+    -moz-column-gap: 1em;
+    -webkit-column-gap: 1em;
+    column-gap: 1em;
     max-width: 1024px;
-    margin: 0 auto;
-}
-article{
-    width: auto;
-    max-width: 200px;
-    height: auto;
-    margin: 5px;
-    background-color: grey;
-}
-.grid {
-    max-width: 69em;
-    list-style: none;
-    margin: 30px auto;
-    padding: 0;
-}
-
-.grid li {
+    width: 90vw;
+    margin: 1em auto;
     display: block;
-    float: left;
-    padding: 1%;
-    width: 31%;
+    box-sizing: border-box !important;
 }
-.grid.effect-2 li.animate {
-    -webkit-transform: translateY(200px);
-    transform: translateY(200px);
-    -webkit-animation: moveUp 0.65s ease forwards;
-    animation: moveUp 0.65s ease forwards;
+article {
+    display: inline-block;
+    width: 100%;
+    background: #efefef;
+    box-sizing: border-box !important;
+    margin: 0 0 1em 0;
+}
+article img{
+    width: 100%;
+}
+article div{
+    padding: 1em;
 }
 @-webkit-keyframes moveUp {
     0% { }
