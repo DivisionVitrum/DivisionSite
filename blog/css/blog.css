@@ -36,6 +36,11 @@ h2{
     color: #636363;
     font-weight: 300;
 }
+h4{
+    font-size: 3rem;
+    color: #ecf0f1;
+    font-weight: 300;
+}
 /* =============================================================================
   NAVIGATION
 ============================================================================= */
@@ -58,6 +63,9 @@ nav ul li a{
     color: #363636;
     text-align: center;
     padding: 1rem;
+}
+#back{
+    width: 1.9em;
 }
 nav ul li:first-child a{
     padding: 0.6rem 1rem 0 0;
@@ -216,6 +224,9 @@ nav a#pull {
     }
     nav li a {
         border-bottom: 1px solid #576979;
+    }
+    #coverpic section{
+        padding: 18vh 0 0 0;
     }
 }
 

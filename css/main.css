@@ -182,6 +182,9 @@ button{
     -o-transition: 250ms;
     transition: 250ms;
 }
+.center a{
+    color: inherit;
+}
 button:hover{
     border: 3px solid transparent;
     background-color: #fb6f49;

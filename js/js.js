@@ -1,7 +1,5 @@
 window.addEventListener('load', init);
 
-
-
 function init() {
     loop();
     setBlog('18 April 2016', '2 Mei 2016', '7 Augustus 2016');
