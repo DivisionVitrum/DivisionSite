@@ -103,8 +103,8 @@ nav ul li:hover{
   PRIMARY LAYOUT STUFF
 ============================================================================= */
 #masonry {
-    -moz-column-width: 13em;
-    -webkit-column-width: 13em;
+    -moz-column-width: 20em;
+    -webkit-column-width: 20em;
     -moz-column-gap: 1em;
     -webkit-column-gap: 1em;
     column-gap: 1em;
