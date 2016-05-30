@@ -347,6 +347,9 @@ nav a#pull {
     nav li a {
         border-bottom: 1px solid #576979;
     }
+    #arrow{
+        display: none !important;
+    }
 }
 /* =============================================================================
   NAV ICON

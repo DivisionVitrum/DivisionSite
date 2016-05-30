@@ -4,7 +4,7 @@ function init() {
     loop();
     setBlog('18 April 2016', '2 Mei 2016', '7 Augustus 2016');
 }
-
+//header arrow animation
 function loop() {
     $('#arrow').css({
         'margin-top': '0rem'
@@ -18,6 +18,7 @@ function loop() {
         loop();
     });
 }
+//set the 3 blog posts
 function setBlog(date1, date2, date3) {
     var dateOne = $('.details').find('h5').get(0);
     var dateTwo = $('.details').find('h5').get(1);
@@ -28,6 +29,7 @@ function setBlog(date1, date2, date3) {
     dateThree.innerHTML = date3;
 };
 
+//responsive menu
 $(function() {
     var pull        = $('#pull');
     var menu        = $('nav ul');
@@ -46,6 +48,7 @@ $(function() {
         icon.toggleClass('open');
     });
 });
+
 ///hover active
 var arrow = $('#arrow');
 var sections = $('section');
@@ -65,6 +68,7 @@ $(window).on('scroll', function () {
         }
     });
 });
+///smooth scroll menu
 $('a[href^="#"]').on('click', function(event) {
     var target = $( $(this).attr('href') );
     if( target.length ) {
@@ -74,6 +78,7 @@ $('a[href^="#"]').on('click', function(event) {
         }, 1000);
     }
 });
+///smooth scroll header arrow
 arrow.on('click', function () {
     var $el = $(this);
     var id = $el.attr('href');
