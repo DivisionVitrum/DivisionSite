@@ -32,7 +32,7 @@ h1 span{
     color: #fb6f49;
 }
 h2{
-    font-size: 4rem;
+    font-size: 3rem;
     color: #636363;
     font-weight: 300;
 }
@@ -102,19 +102,38 @@ nav ul li:hover{
 /* =============================================================================
   PRIMARY LAYOUT STUFF
 ============================================================================= */
-article {
-    display: inline-block;
+#more {
     width: 100%;
-    background: #efefef;
-    box-sizing: border-box !important;
-    margin: 0 0 1em 0;
+}
+
+#more h3 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#space {
+    width: 15%;
+    display: inline-block;
+}
+
+article {
+    width: 23.3%;
+    display: inline-block;
 }
 
 article img{
     width: 100%;
+    margin: 0 auto;
+    border: solid;
+    border-width: 1.5px;
+    color: #fb6f49;
 }
 article div{
-    padding: 1em;
+    margin: 0 auto;
+}
+
+article div p {
+    line-height: 1.5em;
 }
 
 @-webkit-keyframes moveUp {
