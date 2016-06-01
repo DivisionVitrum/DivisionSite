@@ -191,15 +191,6 @@ nav a#pull {
     display: none;
 }
 
-@media screen and (max-width : 1280px) {
-    article {
-        width: 70%;
-    }   
-    article div {
-        margin-bottom: 20px;
-    }
-}
-
 @media screen and (max-width : 600px) {
     
     #responsiveMenu {
