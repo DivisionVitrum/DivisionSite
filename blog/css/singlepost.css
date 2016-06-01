@@ -103,7 +103,7 @@ nav ul li:hover{
   PRIMARY LAYOUT STUFF
 ============================================================================= */
 #more {
-    width: 100%;
+    display: flex; 
 }
 
 #more h3 {
@@ -117,8 +117,7 @@ nav ul li:hover{
 }
 
 article {
-    width: 23.3%;
-    display: inline-block;
+    flex: 1;
 }
 
 article img{
@@ -129,12 +128,11 @@ article img{
     color: #fb6f49;
 }
 article div{
-    margin: 0 auto;
+    padding: 1rem 1rem 5rem 1rem;
 }
 
 article div p {
     line-height: 1.5em;
-    padding: 0px 21px 0px 0px;
 }
 
 @-webkit-keyframes moveUp {
