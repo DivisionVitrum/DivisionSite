@@ -163,8 +163,16 @@ section #container p {
     text-align: center;
 }
 
-.two {
+.one {
     background: #fb6f49 url("../../img/blog1.jpg") no-repeat center / cover;
+}
+
+.two {
+    background: #fb6f49 url("../../img/blog2.jpg") no-repeat center / cover;
+}
+
+.three {
+    background: #fb6f49 url("../../img/blog3.jpg") no-repeat center / cover;
 }
 
 .pic {
