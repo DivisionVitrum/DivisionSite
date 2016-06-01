@@ -116,22 +116,11 @@ nav ul li:hover{
     display: inline-block;
 }
 
-article {
+.card {
     flex: 1;
 }
 
-article img{
-    width: 100%;
-    margin: 0 auto;
-    border: solid;
-    border-width: 1.5px;
-    color: #fb6f49;
-}
-article div{
-    padding: 1rem 1rem 5rem 1rem;
-}
-
-article div p {
+.card div p {
     line-height: 1.5em;
 }
 
@@ -153,6 +142,38 @@ section #container {
 
 section #container p {
     padding: 0px 0px 30px 0px;
+}
+
+.card {
+    max-width: 300px;
+    margin: 0 auto 40px auto;
+    padding: 0rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    background-color: #ecf0f1;
+    overflow: hidden;
+}
+
+.details {
+    padding: 1rem 10%;
+    text-align: left;
+}
+
+.details .center {
+    text-align: center;
+}
+
+.two {
+    background: #fb6f49 url("../../img/blog1.jpg") no-repeat center / cover;
+}
+
+.pic {
+    width: 100%;
+    height: 200px;
+}
+
+.center a {
+    color: inherit;
 }
 
 /* =============================================================================
