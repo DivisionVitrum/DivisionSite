@@ -52,7 +52,7 @@ nav{
 nav ul{
     list-style-type: none;
     overflow: hidden;
-    max-width: 1024px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 nav ul li{
@@ -112,7 +112,7 @@ nav ul li:hover{
 }
 
 #space {
-    width: 15%;
+    width: 12%;
     display: inline-block;
 }
 
@@ -134,8 +134,7 @@ nav ul li:hover{
 
 section #container {
     margin: 0 auto;
-    width: 70%;
-    max-width: 1024px;
+    max-width: 1280px;
 }
 
 section #container p {
