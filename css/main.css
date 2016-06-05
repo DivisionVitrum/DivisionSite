@@ -223,7 +223,7 @@ button:hover{
     font-weight: 300;
 }
 .project p{
-    margin: 1rem 0 1rem 0;
+    margin: 1rem 0 0 0;
 }
 
 .project a {
@@ -238,6 +238,7 @@ button:hover{
 .about{
     text-align: center;
 }
+
 .about h1{
 
 }
@@ -247,31 +248,25 @@ button:hover{
     border-radius: 150px;
     -webkit-border-radius: 150px;
     -moz-border-radius: 150px;
+    cursor: pointer;
 }
 
 #niels, #roy, #levi {
     flex: 1;
 }
 
-#back {
+#back, #back1, #back2 {
     display: none;
     margin: 0 auto;
 }
 
-#back1 {
-    display: none;
-    margin: 0 auto;
+#nbio, #rbio, #lbio {
+    padding: 1rem;
 }
 
-#back2 {
-    
-    display: none;
-    margin: 0 auto;
-}
-
-#bio {
-    display: block;
-    padding: 1rem 1rem 5rem 1rem;
+#nquote, #rquote, #lquote {
+    padding: 0rem 1rem 1rem 1rem;
+    font-style: italic;
 }
 /* =============================================================================
   CONTACT
