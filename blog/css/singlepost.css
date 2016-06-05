@@ -102,23 +102,27 @@ nav ul li:hover{
 /* =============================================================================
   PRIMARY LAYOUT STUFF
 ============================================================================= */
-#more {
+.row {
     display: flex;
-    max-width: 1024px;
-    margin: 0 auto;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
 }
 
-#more h3 {
+.row h3 {
     text-align: center;
     padding-bottom: 30px;
 }
 
+.padding {
+	padding: 0 10px;
+}
+
+.box {
+	flex: 1;
+}
+
 .card {
-    flex: 1;
     max-width: 300px;
     margin: 0 auto 40px auto;
-    padding: 0rem;
     text-align: center;
     border-radius: 0.5rem;
     background-color: #ecf0f1;
@@ -188,6 +192,22 @@ nav a#pull {
     display: none;
 }
 
+@media screen and (max-width: 1280px) {
+	section #container {
+		padding: 0rem 1rem 0rem 1rem;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.row {
+        flex-direction: column;
+    }
+
+    .card {
+    	max-width: 500px;
+    }
+}
+
 @media screen and (max-width : 600px) {
     
     #responsiveMenu {
@@ -226,9 +246,6 @@ nav a#pull {
     }
     nav li a {
         border-bottom: 1px solid #576979;
-    }
-    .row {
-        flex-direction: column;
     }
 }
 
