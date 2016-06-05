@@ -103,17 +103,15 @@ nav ul li:hover{
   PRIMARY LAYOUT STUFF
 ============================================================================= */
 #more {
-    display: flex; 
+    display: flex;
+    max-width: 1024px;
+    margin: 0 auto;
+    flex-flow: row wrap;
 }
 
 #more h3 {
     text-align: center;
     padding-bottom: 30px;
-}
-
-#space {
-    width: 12%;
-    display: inline-block;
 }
 
 .card {
