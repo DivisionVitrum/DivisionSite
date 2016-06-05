@@ -249,6 +249,26 @@ button:hover{
     -moz-border-radius: 150px;
 }
 
+#niels, #roy, #levi {
+    flex: 1;
+}
+
+#back {
+    display: none;
+    margin: 0 auto;
+}
+
+#back1 {
+    display: none;
+    margin: 0 auto;
+}
+
+#back2 {
+    
+    display: none;
+    margin: 0 auto;
+}
+
 /* =============================================================================
   CONTACT
 ============================================================================= */
