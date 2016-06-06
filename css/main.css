@@ -52,7 +52,7 @@ nav{
 nav ul{
     list-style-type: none;
     overflow: hidden;
-    max-width: 1280px;
+    max-width: 1024px;
     margin: 0 auto;
 }
 nav ul li{
@@ -208,7 +208,7 @@ button:hover{
 ============================================================================= */
 .project {
     margin: 0 auto;
-    padding: 1rem 1rem 5rem 1rem;
+    padding: 0rem 1rem 5rem 1rem;
     text-align: center;
 }
 .project i{
