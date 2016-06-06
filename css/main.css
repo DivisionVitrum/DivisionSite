@@ -262,6 +262,9 @@ button:hover{
 
 #niels, #roy, #levi {
     flex: 1;
+    -webkit-animation-duration: 3s;
+    /*-webkit-animation-delay: 2s;*/
+    /*-webkit-animation-iteration-count: infinite;*/
 }
 
 #back, #back1, #back2 {

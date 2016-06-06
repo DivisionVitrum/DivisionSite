@@ -2,6 +2,7 @@ function Niels() {
     //Haalt Levi + Roy weg
     document.getElementById("levi").style.display="none";
     document.getElementById("roy").style.display="none";
+    document.getElementById("niels").className = "animated pulse";
 
     //Toont "terug" knop
     document.getElementById("back").style.display="flex";
@@ -18,6 +19,7 @@ function Niels() {
 function Roy() {
     document.getElementById("niels").style.display="none";
     document.getElementById("levi").style.display="none";
+    document.getElementById("roy").className = "animated bounce";
 
     document.getElementById("back1").style.display="flex";
 
@@ -32,6 +34,7 @@ function Roy() {
 function Levi() {
     document.getElementById("roy").style.display="none";
     document.getElementById("niels").style.display="none";
+    document.getElementById("levi").className = "animated flash";
 
     document.getElementById("back2").style.display="flex";
 
@@ -49,16 +52,19 @@ function Back() { // Zet alles weer terug
     document.getElementById("nbio").style.display="none";
     document.getElementById("nquote").style.display="none";
     document.getElementById("back").style.display="none";
+    document.getElementById("niels").remove.className;
 
     // Roy
 	document.getElementById("roy").style.display="flex";
     document.getElementById("rbio").style.display="none";
     document.getElementById("rquote").style.display="none";
     document.getElementById("back1").style.display="none";
+    document.getElementById("roy").remove.className;
 
     // Levi
 	document.getElementById("levi").style.display="flex";
     document.getElementById("lbio").style.display="none";
     document.getElementById("lquote").style.display="none";
     document.getElementById("back2").style.display="none";
+    document.getElementById("levi").remove.className;
 }
