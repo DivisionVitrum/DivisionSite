@@ -171,19 +171,19 @@ section:nth-child(even){
 .three{
     background: #fb6f49 url("../img/blog3.jpg") no-repeat center / cover;
 }
-.details{
+.detailsBlog{
     padding: 1rem 10%;
     text-align: left;
 }
-.details h5{
+.detailsBlog h5{
     color: #929697;
 }
-.details h2{
+.detailsBlog h2{
     margin: 2rem 0 1rem 0;
     font-family: Roboto;
     color: #191919;
 }
-.details .center{text-align: center}
+.detailsBlog .center{text-align: center}
 button{
     margin: 2rem 0 1rem 0;
     padding: 0.7rem 1.7rem;
@@ -231,6 +231,19 @@ button:hover{
 	text-decoration: none;
 }
 
+.white {
+    background-color: white;
+    max-width: 35rem;
+    height: 19rem;
+}
+
+.logoThumbnail img {
+    width: 17rem;
+}
+
+.detailsProject {
+    padding: 2rem 11%;
+}
 
 /* =============================================================================
   ABOUT
