@@ -254,6 +254,7 @@ button:hover{
     margin: 0 auto;
     display: flex;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .point {
