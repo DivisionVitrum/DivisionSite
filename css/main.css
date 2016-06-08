@@ -31,10 +31,11 @@ h1 span{
     color: #fb6f49;
 }
 
-h3{
-    font-size: 2rem;
+h3 {
+    font-size: 1.7rem;
     color: #636363;
     font-weight: 500;
+    padding-top: 2rem;
 }
 h3 span{
     color: #fb6f49;
@@ -66,6 +67,7 @@ nav ul li a{
 }
 nav ul li:first-child a{
     padding: 0.6rem 1rem 0 0;
+    background-color: transparent !important;
 }
 #navlogo{
     width: 2rem;
@@ -256,8 +258,12 @@ button:hover{
 
 .point {
     flex: 1;
+    padding: 2.5rem 3.5rem;
 }
 
+.intro p {
+    padding: 10px 0 0 0;
+}
 
 /* =============================================================================
   TEAM
@@ -267,7 +273,7 @@ button:hover{
 }
 
 .about img {
-    width: 200px;
+    width: 10rem;
     border-radius: 150px;
     -webkit-border-radius: 150px;
     -moz-border-radius: 150px;
