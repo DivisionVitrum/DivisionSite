@@ -52,19 +52,19 @@ function Back() { // Zet alles weer terug
     document.getElementById("nbio").style.display="none";
     document.getElementById("nquote").style.display="none";
     document.getElementById("back").style.display="none";
-    document.getElementById("niels").remove.className;
+    document.getElementById("niels").className = "";
 
     // Roy
 	document.getElementById("roy").style.display="flex";
     document.getElementById("rbio").style.display="none";
     document.getElementById("rquote").style.display="none";
     document.getElementById("back1").style.display="none";
-    document.getElementById("roy").remove.className;
+    document.getElementById("roy").className = "";
 
     // Levi
 	document.getElementById("levi").style.display="flex";
     document.getElementById("lbio").style.display="none";
     document.getElementById("lquote").style.display="none";
     document.getElementById("back2").style.display="none";
-    document.getElementById("levi").remove.className;
+    document.getElementById("levi").className = "";
 }
