@@ -250,7 +250,7 @@ button:hover{
 /* =============================================================================
   ABOUT
 ============================================================================= */
-.intro {
+.intro, .intro2 {
     margin: 0 auto;
     display: flex;
     text-align: center;
@@ -262,7 +262,19 @@ button:hover{
     padding: 2.5rem 3.5rem;
 }
 
-.intro p {
+figure {
+    padding: 0px;
+    margin: 0px;
+    height: 128px;
+    position: relative;
+    overflow: hidden;
+}
+
+.intro .point:nth-child(3) img:hover {
+    margin-top: -128px;
+}
+
+.intro, .intro2 p {
     padding: 10px 0 0 0;
 }
 
