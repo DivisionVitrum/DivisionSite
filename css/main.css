@@ -265,9 +265,12 @@ button:hover{
 figure {
     padding: 0px;
     margin: 0px;
-    height: 128px;
-    position: relative;
     overflow: hidden;
+}
+
+.intro .point:nth-child(3) figure {
+    height: 128px;
+    margin-bottom: 5px;
 }
 
 .intro .point:nth-child(3) img:hover {
