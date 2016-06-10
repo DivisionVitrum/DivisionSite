@@ -27,7 +27,18 @@ h1{
      color: #636363;
      font-weight: 300;
  }
+
 h1 span{
+    color: #fb6f49;
+}
+
+h2{
+    font-size: 2.7em;
+    color: #636363;
+    font-weight: 300;
+}
+
+h2 span{
     color: #fb6f49;
 }
 
@@ -35,11 +46,10 @@ h3 {
     font-size: 1.7rem;
     color: #636363;
     font-weight: 500;
-    padding-top: 2rem;
 }
+
 h3 span{
     color: #fb6f49;
-    font-weight: 300;
 }
 
 /* =============================================================================
@@ -85,6 +95,20 @@ nav ul li:hover{
 #responsiveMenu {
     display: none;
 }
+
+.social {
+    float: right;
+    padding: 0 .5rem 0 0;
+}
+
+.social .fa {
+    padding: 1rem .2rem;
+    display: inline-block;
+    font: normal normal normal 25px/1 FontAwesome;
+    color: #000;
+}
+
+
 /* =============================================================================
   HEADER
 ============================================================================= */
@@ -150,8 +174,25 @@ section:nth-child(odd){
 /* =============================================================================
   BLOG
 ============================================================================= */
+
+/* Coming Soon Blog */
+.comingsoon {
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem 0 0 0;
+}
+
+.comingsoon img {
+    width: 150px;
+}
+
+.comingsoon h3 {
+    border-bottom: 3px solid #636363;
+    width: 7.6em;
+    margin: 0 auto;
+}
+
 .card{
-    /*width: 300px;*/
     max-width: 300px;
     margin: 0 auto 40px auto;
     padding: 0rem;
