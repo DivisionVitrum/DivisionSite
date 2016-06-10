@@ -42,17 +42,26 @@
 <nav class="clearfix">
     <ul class="clearfix">
         <li><a href="#coverpic" id="main"><img id="navlogo" src="img/V_Logo_Small.png"></a></li>
+        <li><a href="#intro" id="main">Over</a></li>
         <li><a href="#blog" id="main">Blog</a></li>
         <li><a href="#projecten" id="main">Projecten</a></li>
-        <li><a href="#dv" id="main">Over</a></li>
+        <li><a href="#dv" id="main">Team</a></li>
         <li><a href="#contact" id="main">Contact</a></li>
+
+        <div class="social">
+            <a href="https://goo.gl/nouKQP" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            <a href="https://goo.gl/OtvHnL" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+        </div>
 
         <!-- Responsive menu, wordt getoond op tablet/mobiel -->
         <li><a href="#coverpic" id="responsiveMenu"><img id="navlogo" src="img/V_Logo_Small.png"></a></li>
+        <li><a href="#intro" id="responsiveMenu">Over</a></li>
         <li><a href="#blog" id="responsiveMenu">Blog</a></li>
         <li><a href="#projecten" id="responsiveMenu">Projecten</a></li>
-        <li><a href="#dv" id="responsiveMenu">Over</a></li>
+        <li><a href="#dv" id="responsiveMenu">Team</a></li>
         <li><a href="#contact" id="responsiveMenu">Contact</a></li>
+
+
     </ul>
     <a href="#" id="pull">
         <p>Division <span>Vitrum</span></p>
@@ -65,32 +74,89 @@
     </a>
 </nav>
 <header>
-    <div id="coverpic">
-        <section>
+    <div class="coverpic">
+        <section class="coverpic">
             <img src="img/V_Logo_Small.png" alt="">
             <h1>Division <span>Vitrum</span></h1>
-            <a id="arrow" href="#blog"></a>
+            <a id="arrow" href="#intro"></a>
         </section>
     </div>
 </header>
+
+<section id="intro">
+    <div class="container">
+        <div class="title">
+            <h1>Wat doen wij?</h1>
+        </div>
+        <div class="row">
+            <div class="intro">
+                <div class="point">
+                    <figure>
+                        <img src="img/layers.png" alt="Webdesign">
+                        <p>Web Design</p>
+                    </figure>
+                </div>
+                <div class="point">
+                    <figure>
+                        <img src="img/browser.png" alt="Webbuilding">
+                        <p>Web Development</p>
+                    </figure>
+                </div>
+                <div class="point">
+                    <figure>
+                        <img src="img/wordpress-logo2.png" alt="Wordpress" draggable="false">
+                    </figure>
+                    <p>WordPress</p>
+                </div>
+                <div class="point">
+                    <figure>
+                        <img src="img/edit.png" alt="Logo Ontwerp">
+                        <p>Huisstijl Design</p>
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="intro2">
+                <div class="point">
+                    <figure>
+                        <img src="img/search.png" alt="Transparantie">
+                        <p>Transparantie</p>
+                    </figure>
+                </div>
+                <div class="point">
+                    <figure>
+                        <img src="img/tasks.png" alt="Agile">
+                        <p>Agile / Scrum board</p>
+                    </figure>
+                </div>
+                <div class="point">
+                    <figure>
+                        <img src="img/conversation.png" alt="Actieve samenwerking">
+                        <p>Actieve samenwerking</p>
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
 <section id="blog">
     <div class="container">
         <div class="title">
             <h1>Blog</h1>
         </div>
         <div class="row">
-            <div class="box padding">
-                <div class="card">
-                    <!--                     <div class="pic one"></div>
-                                        <div class="details">
-                                            <h5></h5>
-                                            <h2>Node JS Project</h2>
-                                            <p>Waar houden wij ons zoal mee bezig? Test tekst paard hoofd idee ook bert, ari punt school fles muis kaas fiets</p>
-                                            <div class="center"><a href="blog/index.html"><button>Lees meer!</button></a></div>
-                                        </div> -->
-                </div>
+            <div class="comingsoon">
+                <img src="img/V_Logo_medium.png">
+                <h3>Division <span>Vitrum</span></h3>
+                <h2>Online soon!</h2>
             </div>
-            <div class="box padding">
+
+
+            <!--<div class="box padding">
                 <div class="card">
                     <div class="pic two"></div>
                     <div class="detailsBlog">
@@ -102,21 +168,11 @@
                         </a></div>
                     </div>
                 </div>
-            </div>
-            <div class="box padding">
-                <div class="card">
-                    <!--                     <div class="pic three"></div>
-                                        <div class="details">
-                                            <h5></h5>
-                                            <h2>PHP Poject</h2>
-                                            <p>Waar houden wij ons zoal mee bezig? Test tekst paard hoofd idee ook bert, ari punt school fles muis kaas fiets</p>
-                                            <div class="center"><a href="blog/index.html"><button>Lees meer!</button></a></div>
-                                        </div> -->
-                </div>
-            </div>
+            </div>-->
         </div>
     </div>
 </section>
+
 <section id="projecten">
     <div class="container">
         <div class="title">
@@ -141,7 +197,7 @@
                             <div class="logoThumbnail">
                                 <img src="http://voetenlos.nl/img/logo.png" alt="Logo Voet en Los">
                             </div>
-                            <p>Voet en Los is de massage salon in Hellevoetsluit. De nadruk bij het maken van deze
+                            <p>Voet en Los is de massage salon in Hellevoetsluis. De nadruk bij het maken van deze
                                 website lag op het zo overzichtelijk mogelijk overbrengen van alle informatie.</p>
                             <a href="http://www.voetenlos.nl" target="_blank">
                                 <button>Bekijk de website!</button>
@@ -163,10 +219,11 @@
         </div>
     </div>
 </section>
+
 <section id="dv">
     <div class="container about">
         <div class="title">
-            <h1>Over ons</h1>
+            <h1>Team</h1>
         </div>
         <div class="row">
             <div id="niels">
@@ -174,7 +231,7 @@
                     <div class="project">
                         <img src="img/niels.jpg" alt="" onclick="Niels()">
                         <h3>Niels <span>van Rijn</span></h3>
-                        <p>No-nonsense digital hero #1</p>
+                        <p>Creatief</p>
                         <div id="nbio"></div>
                         <div id="nquote"></div>
                         <button id="back" onclick="Back()">Terug</button>
@@ -186,7 +243,7 @@
                     <div class="project">
                         <img src="img/roy.jpg" alt="" onclick="Roy()">
                         <h3>Roy <span>Sijnesael</span></h3>
-                        <p>No-nonsense digital hero #2</p>
+                        <p>Overziend</p>
                         <div id="rbio"></div>
                         <div id="rquote"></div>
                         <button id="back1" onclick="Back()">Terug</button>
@@ -198,7 +255,7 @@
                     <div class="project">
                         <img src="img/levi.jpg" alt="" onclick="Levi()">
                         <h3>Levi <span>Laaper</span></h3>
-                        <p>No-nonsense digital hero #3</p>
+                        <p>Vooruitdenkend</p>
                         <div id="lbio"></div>
                         <div id="lquote"></div>
                         <button id="back2" onclick="Back()">Terug</button>
@@ -208,10 +265,16 @@
         </div>
     </div>
 </section>
+
 <section id="contact">
     <div class="container">
         <div class="title">
             <h1>Contact</h1>
+        </div>
+        <div id="mail">
+            <i class="fa fa-paper-plane-o" aria-hidden="true"></i><a
+                href="mailto:info@divisionvitrum.com?Subject=Contact" target="_top">
+            <h3>info@division<span>vitrum</span>.com</h3></a>
         </div>
         <div class="contactForm">
             <div class="container">
