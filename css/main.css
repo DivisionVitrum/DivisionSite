@@ -112,17 +112,17 @@ nav ul li:hover{
 /* =============================================================================
   HEADER
 ============================================================================= */
-#coverpic{
+.coverpic{
     height: 100vh;
     background: #ecf0f1 url("../img/mac-glasses.jpg") no-repeat center;
     background-size: cover;
 }
-#coverpic section{
+.coverpic section{
     margin: 0 auto;
     padding: 25vh 0 0 0;
     text-align: center;
 }
-#coverpic a {
+.coverpic a {
     width: 55px;
     height: 35px;
     margin: 0 auto;
@@ -135,7 +135,7 @@ nav ul li:hover{
     -o-transition:background 250ms;
     transition:background 250ms;
 }
-#coverpic a:hover{
+.coverpic a:hover{
     background: url("../img/ui/down_arrow_hover.png") no-repeat center;
     background-size: cover;
 }
@@ -357,6 +357,10 @@ figure {
     padding: 0rem 1rem 1rem 1rem;
     font-style: italic;
 }
+
+#dv h3 {
+    padding: 25px 0 0 0;
+}
 /* =============================================================================
   CONTACT
 ============================================================================= */
@@ -381,6 +385,18 @@ figure {
     height: 200px;
     overflow: auto; 
 }
+
+#mail {
+    margin: 0 auto;
+    font: normal normal normal 27px/1 FontAwesome;
+    display: flex;
+    width: 377px;
+}
+
+#mail i {
+    padding: 2px 20px 0 0;
+}
+
 
 /* =============================================================================
   RESPONSIVE
