@@ -73,7 +73,7 @@ nav ul li a{
     display: inline-block;
     color: #363636;
     text-align: center;
-    padding: 1rem;
+    padding: 1.1rem;
 }
 nav ul li:first-child a{
     padding: 0.6rem 1rem 0 0;
