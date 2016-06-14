@@ -399,7 +399,7 @@ figure {
 
 
 /* =============================================================================
-  RESPONSIVE
+  RESPONSIVE PORTRAIT
 ============================================================================= */
 .clearfix:before, .clearfix:after {
     content: " ";
@@ -501,10 +501,57 @@ nav a#pull {
     nav li a {
         border-bottom: 1px solid #576979;
     }
-    #arrow{
+    #arrow {
         display: none !important;
     }
 }
+
+/* =============================================================================
+  RESPONSIVE LANDSCAPE
+============================================================================= */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { 
+    #responsiveMenu {
+        display: block;
+    }
+    .clearfix {
+        max-height: 335px;
+    }
+    #main {
+        display: none;
+    }
+    nav {
+        border-bottom: 0;
+    }
+    nav ul {
+        display: none;
+        height: auto;
+    }
+    nav a#pull {
+        display: block;
+        width: 100%;
+        position: relative;
+        color: #636363;
+        background-color: #ecf0f1;
+        height: 40px;
+        vertical-align: center;
+    }
+    #pull p {
+        padding: 10px;
+        float: left;
+    }
+    #pull span {
+        color: #fb6f49;
+    }
+    nav li {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    nav li a {
+        border-bottom: 1px solid #576979;
+    }
+}
+
 /* =============================================================================
   NAV ICON
 ============================================================================= */
