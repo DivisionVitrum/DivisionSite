@@ -550,6 +550,15 @@ nav a#pull {
     nav li a {
         border-bottom: 1px solid #576979;
     }
+    #arrow {
+        display: none;
+    }
+    .intro, .intro2 {
+        display: inline-block;
+    }
+    h1 {
+        margin: 0;
+    }
 }
 
 /* =============================================================================
