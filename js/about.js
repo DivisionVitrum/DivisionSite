@@ -2,7 +2,7 @@ function Niels() {
     //Haalt Levi + Roy weg
     document.getElementById("levi").style.display="none";
     document.getElementById("roy").style.display="none";
-    document.getElementById("niels").className = "animated pulse";
+    document.getElementById("niels").className = "";
 
     //Toont "terug" knop
     document.getElementById("back").style.display="flex";
@@ -19,7 +19,7 @@ function Niels() {
 function Roy() {
     document.getElementById("niels").style.display="none";
     document.getElementById("levi").style.display="none";
-    document.getElementById("roy").className = "animated bounce";
+    document.getElementById("roy").className = "";
 
     document.getElementById("back1").style.display="flex";
 
@@ -34,7 +34,7 @@ function Roy() {
 function Levi() {
     document.getElementById("roy").style.display="none";
     document.getElementById("niels").style.display="none";
-    document.getElementById("levi").className = "animated flash";
+    document.getElementById("levi").className = "";
 
     document.getElementById("back2").style.display="flex";
 
