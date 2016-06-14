@@ -8,8 +8,7 @@ function Niels() {
     document.getElementById("back").style.display="flex";
 
     //Toont tekst
-    document.getElementById("nbio").innerHTML = "Ik ben een nerd"
-
+    document.getElementById("nbio").innerHTML = ""
     document.getElementById("nquote").innerHTML = "Intuition fears dimensionless silence";
     
     document.getElementById("nquote").style.display = "block";
@@ -23,7 +22,7 @@ function Roy() {
 
     document.getElementById("back1").style.display="flex";
 
-    document.getElementById("rbio").innerHTML = "Mijn naam is Roy Sijnesael"
+    document.getElementById("rbio").innerHTML = "Roy is CMGT student aan de Hogeschool Rotterdam."
     document.getElementById("rquote").innerHTML = "Intuition fears dimensionless silence";
     
     document.getElementById("rquote").style.display = "block";
