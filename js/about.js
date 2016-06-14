@@ -8,8 +8,8 @@ function Niels() {
     document.getElementById("back").style.display="flex";
 
     //Toont tekst
-    document.getElementById("nbio").innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet nibh nisl. Phasellus auctor nulla id lectus finibus, sit amet iaculis est tristique. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean orci nulla, fringilla ut tortor sit amet, ornare tincidunt est. Phasellus ullamcorper dictum leo, eu gravida elit aliquet at. Vestibulum ut velit lectus. Etiam interdum convallis lorem sed dictum. Duis maximus massa in lorem ornare, id pretium risus blandit. Cras at eros quis nibh aliquam suscipit quis id massa. Morbi rhoncus rhoncus lorem in gravida. Nunc eget aliquam sem, ut egestas lectus. Nunc sit amet tempus purus, eget venenatis justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.!";
-    
+    document.getElementById("nbio").innerHTML = "Ik ben een nerd"
+
     document.getElementById("nquote").innerHTML = "Intuition fears dimensionless silence";
     
     document.getElementById("nquote").style.display = "block";
