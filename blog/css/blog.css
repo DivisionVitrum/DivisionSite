@@ -91,7 +91,7 @@ nav ul li:hover{
 ============================================================================= */
 #coverpic{
     height: 100vh;
-    background: #ecf0f1 url("../../img/blog2.jpg") no-repeat center;
+    background: #ecf0f1 url("../../img/header-1080x920.jpg") no-repeat center;
     background-size: cover;
 }
 #coverpic section{

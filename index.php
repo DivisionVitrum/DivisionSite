@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+   <!--favicon-->
+   <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+   <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+   <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+   <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+   <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+   <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+   <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+   <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+   <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+   <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+   <link rel="manifest" href="img/favicon/manifest.json">
+   <meta name="msapplication-TileColor" content="#ffffff">
+   <meta name="msapplication-TileImage" content="img/favicon//ms-icon-144x144.png">
+   <meta name="theme-color" content="#ffffff">
+   <!--links-->
+   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100' rel='stylesheet' type='text/css'>
+   <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,500italic,700,700italic,900' rel='stylesheet' type='text/css'>
+   <link rel="stylesheet" type="text/css" href="css/main.css">
+   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+   <!--[if lt IE 9]>
+   <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+   <![endif]-->
+   <title>Division Vitrum</title>
+</head>
+<body>
+<!-- navigation -->
+<nav class="clearfix">
+   <ul class="clearfix">
+      <li><a href="#header" id="main" class="navlogo"></a></li>
+      <li><a href="#over" id="main">Over</a></li>
+      <li><a href="#blog" id="main">Blog</a></li>
+      <li><a href="#projecten" id="main">Projecten</a></li>
+      <li><a href="#team" id="main">Team</a></li>
+      <li><a href="#contact" id="main">Contact</a></li>
+
+      <!-- Responsive menu, wordt getoond op tablet/mobiel -->
+      <li><a href="#header" id="responsiveMenu" class="navlogo"></a></li>
+      <li><a href="#over" id="responsiveMenu">Over</a></li>
+      <li><a href="#blog" id="responsiveMenu">Blog</a></li>
+      <li><a href="#projecten" id="responsiveMenu">Projecten</a></li>
+      <li><a href="#team" id="responsiveMenu">Team</a></li>
+      <li><a href="#contact" id="responsiveMenu">Contact</a></li>
+   </ul>
+   <a href="#" id="pull">
+      <p>Division <span>Vitrum</span></p>
+      <div id="nav-icon3">
+         <span></span>
+         <span></span>
+         <span></span>
+         <span></span>
+      </div>
+   </a>
+</nav>
+<!-- header image + logo -->
+<header id="header">
+   <section>
+      <img src="img/V_Logo_Small.png" alt="">
+      <h1>Division <span>Vitrum</span></h1>
+   </section>
+</header>
+<!-- Wat doen wij section -->
+<section id="over">
+   <div class="container">
+      <div class="title">
+         <h1>Wat doen wij?</h1>
+         <sub></sub>
+      </div>
+      <div class="flexrow">
+         <div class="skill">
+            <img src="img/layers.png" alt="">
+            <h2>Design</h2>
+            <p>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+         </div>
+         <div class="skill">
+            <img src="img/browser.png" alt="">
+            <h2>Web Development</h2>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+         </div>
+         <div class="skill">
+            <img src="img/edit.png" alt="">
+            <h2>Huisstijl</h2>
+            <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi.</p>
+         </div>
+      </div>
+   </div>
+</section>
+<!-- Blog section -->
+<section class="odd" id="blog">
+   <?php include "includes/blog.php"?>
+</section>
+<!-- Projecten section -->
+<section id="projecten">
+   <?php include "includes/project.php"?>
+</section>
+<!-- Team -->
+<section class="odd" id="team">
+   <div class="container">
+      <div class="title">
+         <h1>Team</h1>
+         <sub></sub>
+      </div>
+      <div class="flexrow">
+         <div class="team">
+            <div class="avatar niels"></div>
+            <h2>Niels <span>van Rijn</span></h2>
+            <p>Creatief</p>
+         </div>
+         <div class="team">
+            <div class="avatar roy"></div>
+            <h2>Roy <span>Sijnesael</span></h2>
+            <p>Overziend</p>
+         </div>
+         <div class="team">
+            <div class="avatar levi"></div>
+            <h2>Levi <span>Laaper</span></h2>
+            <p>Vooruitdenkend</p>
+         </div>
+      </div>
+   </div>
+</section>
+<!-- Contact -->
+<section id="contact">
+   <div class="container">
+      <div class="title">
+         <h1>Contact</h1>
+         <sub></sub>
+      </div>
+      <form action="https://formspree.io/info@divisionvitrum.com" method="POST">
+         <div>
+            <input type="text" id="name" name="Naam" placeholder="Naam">
+         </div>
+         <div>
+            <input type="text" id="email" name="E-mail" placeholder="E-mail">
+         </div>
+         <div>
+            <textarea id="msg" name="Bericht" placeholder="Bericht"></textarea>
+         </div>
+         <div class="button">
+            <button type="submit">Verzenden</button>
+         </div>
+      </form>
+   </div>
+</section>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
