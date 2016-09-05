@@ -39,18 +39,20 @@
 <nav class="clearfix">
    <ul class="clearfix">
       <li><a href="#header" id="main" class="navlogo"></a></li>
-      <li><a href="#over" id="main">Over</a></li>
+      <li><a href="#Uitgelicht" id="main">Uitgelicht</a></li>
       <li><a href="#blog" id="main">Blog</a></li>
-      <li><a href="#projecten" id="main">Projecten</a></li>
+      <li><a href="#over" id="main">Over</a></li>
       <li><a href="#team" id="main">Team</a></li>
+      <li><a href="#projecten" id="main">Projecten</a></li>
       <li><a href="#contact" id="main">Contact</a></li>
 
       <!-- Responsive menu, wordt getoond op tablet/mobiel -->
       <li><a href="#header" id="responsiveMenu" class="navlogo"></a></li>
-      <li><a href="#over" id="responsiveMenu">Over</a></li>
+      <li><a href="#Uitgelicht" id="responsiveMenu">Uitgelicht</a></li>
       <li><a href="#blog" id="responsiveMenu">Blog</a></li>
-      <li><a href="#projecten" id="responsiveMenu">Projecten</a></li>
+      <li><a href="#over" id="responsiveMenu">Over</a></li>
       <li><a href="#team" id="responsiveMenu">Team</a></li>
+      <li><a href="#projecten" id="responsiveMenu">Projecten</a></li>
       <li><a href="#contact" id="responsiveMenu">Contact</a></li>
    </ul>
    <a href="#" id="pull">
@@ -70,6 +72,38 @@
       <h1>Division <span>Vitrum</span></h1>
    </section>
 </header>
+<!-- Wat doen wij section -->
+<section id="Uitgelicht">
+   <div class="container">
+      <div class="title">
+         <h1>Uitgelicht</h1>
+         <sub></sub>
+      </div>
+      <div class="flexrow">
+         <div class="skill">
+            <img src="img/layers.png" alt="">
+            <h2>Design</h2>
+            <p>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+         </div>
+         <div class="skill">
+            <img src="img/browser.png" alt="">
+            <h2>Web Development</h2>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+         </div>
+         <div class="skill">
+            <img src="img/edit.png" alt="">
+            <h2>Huisstijl</h2>
+            <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi.</p>
+         </div>
+      </div>
+   </div>
+</section>
+
+<!-- Blog section -->
+<section class="odd" id="blog">
+   <?php include "includes/blog.php"?>
+</section>
+
 <!-- Wat doen wij section -->
 <section id="over">
    <div class="container">
@@ -96,14 +130,7 @@
       </div>
    </div>
 </section>
-<!-- Blog section -->
-<section class="odd" id="blog">
-   <?php include "includes/blog.php"?>
-</section>
-<!-- Projecten section -->
-<section id="projecten">
-   <?php include "includes/project.php"?>
-</section>
+
 <!-- Team -->
 <section class="odd" id="team">
    <div class="container">
@@ -130,6 +157,17 @@
       </div>
    </div>
 </section>
+
+<!-- Projecten section -->
+<section id="projecten">
+   <?php include "includes/project.php"?>
+</section>
+
+<!-- Projecten section -->
+<section id="projecten">
+   <?php include "includes/project.php"?>
+</section>
+
 <!-- Contact -->
 <section id="contact">
    <div class="container">
