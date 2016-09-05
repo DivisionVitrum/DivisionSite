@@ -10,7 +10,7 @@
             </div>
             <h2>Left</h2>
             <p>Hier komt iets te staan over onze projecten. Eer komt een uitgelicht project in de vorm van een plaatje</p>
-            <button type="button" name="button">Bekijk al onze projecten</button>
+            <a href="projects/"><button type="button" name="button">Bekijk al onze projecten</button></a>
         </div>
     </div>
 </aside>

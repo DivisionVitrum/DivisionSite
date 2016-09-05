@@ -83,7 +83,7 @@ nav ul li a.navlogo{
 }
 nav ul li a.navlogo:hover{
    background-color: transparent !important;
-   border: 0 !important;
+   border: transparent !important;
 }
 nav ul li{
    float: left;
