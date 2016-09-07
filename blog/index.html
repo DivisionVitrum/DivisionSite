@@ -25,6 +25,9 @@
     <!--links-->
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,500italic,700,700italic,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/blog.css">
     <title>Division Vitrum</title>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -37,14 +40,14 @@
 <body>
 <nav class="clearfix">
     <ul class="clearfix">
-        <li><a href="../" id="main" class="navlogo"></a></li>
-        <li><a href="#blog" id="main">Blog</a></li>
-        <li><a href="../" id="main" class="blogback"></a></li>
+        <li><a href="../" id="main"><img id="navlogo" src="../img/V_Logo_Small.png"></a></li>
+        <li><a href="#blog" id="main" class="active">Blog</a></li>
+        <li><a href="../" id="main"><img id="back" src="../img/ui/blog_back.png" alt=""></a></li>
 
         <!-- Responsive menu, wordt getoond op tablet/mobiel -->
-        <li><a href="../" id="responsiveMenu" class="navlogo"></a></li>
-        <li><a href="#blog" id="responsiveMenu">Blog</a></li>
-        <li><a href="../" id="responsiveMenu" class="blogback"></a></li>
+        <li><a href="../" id="responsiveMenu"><img id="navlogo" src="../img/V_Logo_Small.png"></a></li>
+        <li><a href="#blog" id="responsiveMenu" class="active">Blog</a></li>
+        <li><a href="../" id="responsiveMenu"><img id="back" src="../img/ui/blog_back.png" alt=""></a></li>
     </ul>
     <a href="#" id="pull">
         <p>Division <span>Vitrum</span></p>
@@ -70,37 +73,38 @@
         <article>
             <img src="../img/blogpic.jpg">
             <div>
-                <h1>GitHub</h1>
-                <p>Wij werken met GitHub en andere programma's die onze programmeer skills verbeteren.</p>
+                <h3>Werken met GitHub</h3>
+                <p>Wij werken áltijd met GitHub. Maar wat is GitHub nu precies?</p>
+                <a href="http://localhost/DivisionSite/blog/posts/werken-met-github.php"><button type="button" name="button">Bekijk post</button></a>
             </div>
         </article>
-        <article>
+<!--         <article>
             <img src="../img/blogpic.jpg">
             <div>
-                <h1>Post 2</h1>
+                <h3>Post 2</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non dui a nisi pharetra posuere nec at velit. Proin sit amet nisi at turpis lobortis auctor. Suspendisse vitae gravida est. Donec vestibulum bibendum neque quis lobortis. Fusce rhoncus non ligula sed volutpat. Nunc nunc magna, cursus sed venenatis eu, luctus nec nibh.</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non dui a nisi pharetra posuere nec at velit. Proin sit amet nisi at turpis lobortis auctor. Suspendisse vitae gravida est. Donec vestibulum bibendum neque quis lobortis. Fusce rhoncus non ligula sed volutpat. Nunc nunc magna, cursus sed venenatis eu, luctus nec nibh.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non dui a nisi pharetra posuere nec at velit. Proin sit amet nisi at turpis lobortis auctor. Suspendisse vitae gravida est. Donec vestibulum bibendum neque quis lobortis. Fusce rhoncus non ligula sed volutpat. Nunc nunc magna, cursus sed venenatis eu, luctus nec nibh.</p>
-            </div>
-        </article>
-        <article>
-            <img src="../img/blogpic.jpg">
-            <div>
-                <h1>Post 3</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non dui a nisi pharetra posuere nec at velit. Proin sit amet nisi at turpis lobortis auctor. Suspendisse vitae gravida est. Donec vestibulum bibendum neque quis lobortis. Fusce rhoncus non ligula sed volutpat. Nunc nunc magna, cursus sed venenatis eu, luctus nec nibh.</p>
             </div>
         </article>
         <article>
             <img src="../img/blogpic.jpg">
             <div>
-                <h1>Post 4</h1>
+                <h3>Post 3</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non dui a nisi pharetra posuere nec at velit. Proin sit amet nisi at turpis lobortis auctor. Suspendisse vitae gravida est. Donec vestibulum bibendum neque quis lobortis. Fusce rhoncus non ligula sed volutpat. Nunc nunc magna, cursus sed venenatis eu, luctus nec nibh.</p>
             </div>
         </article>
         <article>
             <img src="../img/blogpic.jpg">
             <div>
-                <h1>Post 5</h1>
+                <h3>Post 4</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non dui a nisi pharetra posuere nec at velit. Proin sit amet nisi at turpis lobortis auctor. Suspendisse vitae gravida est. Donec vestibulum bibendum neque quis lobortis. Fusce rhoncus non ligula sed volutpat. Nunc nunc magna, cursus sed venenatis eu, luctus nec nibh.</p>
+            </div>
+        </article>
+        <article>
+            <img src="../img/blogpic.jpg">
+            <div>
+                <h3>Post 5</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non dui a nisi pharetra posuere nec at velit. Proin sit amet nisi at turpis lobortis auctor. Suspendisse vitae gravida est. Donec vestibulum bibendum neque quis lobortis. Fusce rhoncus non ligula sed volutpat. Nunc nunc magna, cursus sed venenatis eu, luctus nec nibh.</p>
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non dui a nisi pharetra posuere nec at velit. Proin sit amet nisi at turpis lobortis auctor. Suspendisse vitae gravida est. Donec vestibulum bibendum neque quis lobortis. Fusce rhoncus non ligula sed volutpat. Nunc nunc magna, cursus sed venenatis eu, luctus nec nibh.</p>
@@ -109,24 +113,24 @@
         <article>
             <img src="../img/blogpic.jpg">
             <div>
-                <h1>Post 6</h1>
+                <h3>Post 6</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non dui a nisi pharetra posuere nec at velit. Proin sit amet nisi at turpis lobortis auctor. Suspendisse vitae gravida est. Donec vestibulum bibendum neque quis lobortis. Fusce rhoncus non ligula sed volutpat. Nunc nunc magna, cursus sed venenatis eu, luctus nec nibh.</p>
             </div>
         </article>
         <article>
             <img src="../img/blogpic.jpg">
             <div>
-                <h1>Post 7</h1>
+                <h3>Post 7</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non dui a nisi pharetra posuere nec at velit. Proin sit amet nisi at turpis lobortis auctor. Suspendisse vitae gravida est. Donec vestibulum bibendum neque quis lobortis. Fusce rhoncus non ligula sed volutpat. Nunc nunc magna, cursus sed venenatis eu, luctus nec nibh.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non dui a nisi pharetra posuere nec at velit. Proin sit amet nisi at turpis lobortis auctor. Suspendisse vitae gravida est. Donec vestibulum bibendum neque quis lobortis. Fusce rhoncus non ligula sed volutpat. Nunc nunc magna, cursus sed venenatis eu, luctus nec nibh.</p>
             </div>
         </article>
         <article>
             <img src="../img/blogpic.jpg">
             <div>
-                <h1>Post 8</h1>
+                <h3>Post 8</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non dui a nisi pharetra posuere nec at velit. Proin sit amet nisi at turpis lobortis auctor. Suspendisse vitae gravida est. Donec vestibulum bibendum neque quis lobortis. Fusce rhoncus non ligula sed volutpat. Nunc nunc magna, cursus sed venenatis eu, luctus nec nibh.</p>
             </div>
-        </article>
+        </article> -->
     </div>
 </section>
 <script src="../js/jquery.min.js"></script>
