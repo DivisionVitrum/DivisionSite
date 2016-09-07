@@ -4,6 +4,17 @@ function init() {
 
 }
 
+// Mobiele afbeeldingen fix
+var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
+if(iOS){
+    $('*').filter(function() {
+        if ($(this).css("background-attachment") === 'fixed') {
+            console.log(this);
+            $(this).addClass("scroll");
+        }
+    });
+}
+
 //responsive menu
 $(function() {
     var pull        = $('#pull');
