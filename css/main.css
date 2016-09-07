@@ -195,7 +195,9 @@ UITGELICHT
 }
 
 #uitgelicht .fa {
-   padding: 0 5px 0 0;
+   padding: 0 10px 0 0;
+   width: 1em;
+   text-align: center;
 }
 
 #uitgelicht span {
@@ -215,7 +217,7 @@ BLOG
 .blogpic{
    width: 100%;
    height: 100vh;
-   background: #232323 url("../img/blogpic.jpg") no-repeat fixed center / cover;
+   background: #232323 url("../img/blogpost1.jpg") no-repeat fixed 500px / cover;
 }
 .blogpic2{
    width: 100%;

@@ -83,12 +83,10 @@ $title = "Werken met GitHub";
 </header>
 <section>
     <div id="container">
-        <br>
         <h2><?php echo $title ?></h2>
-        <br>
 
         <h3>Wat is GitHub precies?</h3>
-        <p>GitHub is een platform voor open source-software. 
+        <p>GitHub is een platform voor open source-software.
         Ontwikkelaars plaatsen hier hun code, projecten en oplossingen voor diverse problemen. Wanneer deze ontwikkelaars samen werken is GitHub ideaal
         voor versiebeheer. </p>
 
@@ -100,12 +98,6 @@ $title = "Werken met GitHub";
             Je kan er ook voor kiezen om het handmatig te doen via de Terminal. Hiervoor moet je wel enige kennis van Git hebben, gelukkig kan je via
             websites zoals <a href="https://www.codecademy.com/learn/learn-git" target="_blank">Codecademy</a> gemakkelijk meer leren over het gebruik van Git.
         </p>
-        
-        <h3>Delen</h3>
-        <p><div class="fb-share-button" data-href="http://localhost/DivisionSite/blog/posts/werken-met-github.php" data-layout="button" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%2FDivisionSite%2Fblog%2Fposts%2Fwerken-met-github.php&amp;src=sdkpreparse">Delen</a></div></p>
-        
-        <h3>MEER POSTS - Coming soon!</h3>
-        <br>
 <!--         <div class="row">
             <div class="box padding"> 
                 <div class="card">
