@@ -42,49 +42,73 @@ h4{
     font-weight: 300;
 }
 /* =============================================================================
-  NAVIGATION
+NAV
 ============================================================================= */
 nav{
-    width: 100%;
-    background-color: rgba(236,240,241,0.9);
+    width: 100vw;
+    max-width:100%;
+    height: 0;
     position: fixed;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(212, 216, 217, 0.0);
+
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+nav.navscroll{
+    height: 3.3rem;
+    background-color: rgba(212, 216, 217, 0.60);
+    border-bottom: 1px solid rgba(212, 216, 217, 0.60);
 }
 nav ul{
-    list-style-type: none;
-    overflow: hidden;
     max-width: 1024px;
     margin: 0 auto;
+}
+nav ul li a.navlogo{
+    width: 2rem;
+    height: 2rem;
+    padding: 0;
+    margin: 0.7rem 1rem 0 1rem;
+    background: transparent url("../img/V_Logo_Small.png") no-repeat center / cover;
+}
+nav ul li a.navlogo:hover{
+    background-color: transparent !important;
+    border: transparent !important;
 }
 nav ul li{
     float: left;
 }
-nav ul li a{
-    display: inline-block;
-    color: #363636;
-    text-align: center;
-    padding: 1rem;
+#navlogo{
+    width: 2rem;
 }
 #back{
     width: 1.9em;
 }
-nav ul li:first-child a{
-    padding: 0.6rem 1rem 0 0;
+nav ul li a{
+    margin: 0;
+    padding: 1rem;
+    display: inline-block;
+    border-bottom: 1px solid rgba(255, 112, 74, 0);
+
+    color: #ecf0f1;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
 }
-#navlogo{
-    width: 2rem;
+.navAscroll{
+    color: #363636
 }
-nav ul li:first-child{
-    background-color: transparent !important;
-}
-nav ul li:hover{
-    background-color: #bdc3c7;
-}
-.active{
-    background-color: #bdc3c7;
+nav ul li a:hover, .active{
+    background-color: rgba(255, 112, 74, 0.60);
+    border-bottom: 1px solid rgba(255, 112, 74, 0.60);
 }
 /*---responsive menu---*/
 #responsiveMenu {
     display: none;
+    color: #363636;
 }
 /* =============================================================================
   HEADER
