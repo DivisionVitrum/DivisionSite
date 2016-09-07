@@ -1,5 +1,5 @@
 <aside class="">
-    <div class="blogpic2"></div>
+    <div class="projectpic"></div>
 </aside>
 <aside class="">
     <div class="flexrow">

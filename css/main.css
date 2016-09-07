@@ -219,11 +219,6 @@ BLOG
    height: 100vh;
    background: #232323 url("../img/blogpost1.jpg") no-repeat fixed 500px / cover;
 }
-.blogpic2{
-   width: 100%;
-   height: 100vh;
-   background: #232323 url("../img/header-1080x920.jpg") no-repeat fixed center / cover;
-}
 .blogresponsive:nth-child(1){
    display: none;
 }
@@ -262,6 +257,11 @@ section#over {
 /* =============================================================================
 Projecten
 ============================================================================= */
+.projectpic{
+   width: 100%;
+   height: 100vh;
+   background: #232323 url("../img/projectpic2.jpg") no-repeat fixed -300px / cover;
+}
 /* =============================================================================
 Team
 ============================================================================= */
