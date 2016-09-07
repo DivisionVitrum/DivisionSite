@@ -110,7 +110,6 @@
                 <img src="img/edit.png" alt="">
                 <h2>Huisstijl <span>Design</span></h2>
                 <ul>
-                    <li><p><i class="fa fa-home fa-lg" aria-hidden="true"></i>Huisstijl</p></li>
                     <li><p><i class="fa fa-ra fa-lg" aria-hidden="true"></i>Logo Design</p></li>
                     <li><p><i class="fa fa-file-text fa-lg" aria-hidden="true"></i>Briefpapier</p></li>
                     <li><p><i class="fa fa-envelope fa-lg" aria-hidden="true"></i>Visitekaartjes</p></li>
