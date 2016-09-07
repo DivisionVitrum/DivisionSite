@@ -12,7 +12,7 @@
             <p>GitHub is een platform voor open source-software. 
                 Ontwikkelaars plaatsen hier hun code, projecten en oplossingen voor diverse problemen. Wanneer deze ontwikkelaars samen werken is GitHub ideaal voor versiebeheer. </p><br>
 
-            <a href="blog/"><button type="button" name="button">Lees meer</button></a>
+            <a href="blog/posts/werken-met-github.php"><button type="button" name="button">Lees meer</button></a>
         </div>
     </div>
 </aside>

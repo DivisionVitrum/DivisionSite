@@ -93,7 +93,7 @@ $title = "Werken met GitHub";
         voor versiebeheer. </p>
 
         <h3>Waarom zou je GitHub gebruiken?</h3>
-        <p>In sit amet lobortis turpis, et finibus odio. Sed varius quis metus nec tempus. Vestibulum eget leo venenatis, euismod ante suscipit, scelerisque dui. Ut blandit feugiat lectus vel gravida. Aliquam tellus urna, bibendum tempor faucibus vitae, efficitur et urna. Quisque et nisl turpis. Aenean fermentum euismod nibh, sit amet feugiat eros lacinia eu. Aenean ultricies viverra eros, vel pretium tortor ultricies sed. Integer vitae viverra est. Etiam scelerisque lobortis orci, non imperdiet augue sollicitudin quis. Praesent a odio tincidunt, congue sem ac, porta ligula. Praesent commodo non ipsum sed volutpat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        <p>GitHub is ideaal als je aan een project werkt met meerdere personen. Je kan zo gemakkelijk versies beheren zodat iedereen kan zien wat er precies aangepast is. Je kan zo ook oudere versies terughalen, mocht er iets fout gaan. Je kan ook aparte branches aanmaken om zo aparte functionaliteiten in te bouwen zonder andere developers te</p>
 
         <h3>Probeer het zelf!</h3>
         <p>Git is gemakkelijk te gebruiken, via <a href="https://desktop.github.com/" target="_blank">GitHub Desktop</a>, <a href="https://www.sourcetreeapp.com/" target="_blank">SourceTree</a> en andere programma's wordt het voor de gebruiker makkelijk gemaakt.
@@ -104,9 +104,9 @@ $title = "Werken met GitHub";
         <h3>Delen</h3>
         <p><div class="fb-share-button" data-href="http://localhost/DivisionSite/blog/posts/werken-met-github.php" data-layout="button" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%2FDivisionSite%2Fblog%2Fposts%2Fwerken-met-github.php&amp;src=sdkpreparse">Delen</a></div></p>
         
-        <h3>MEER POSTS</h3>
+        <h3>MEER POSTS - Coming soon!</h3>
         <br>
-        <div class="row">
+<!--         <div class="row">
             <div class="box padding"> 
                 <div class="card">
                     <div>
@@ -134,7 +134,7 @@ $title = "Werken met GitHub";
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </section>
 <script src="../../js/jquery.min.js"></script>
