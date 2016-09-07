@@ -27,6 +27,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,500italic,700,700italic,900'
           rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="https://use.fontawesome.com/6b9bb91a75.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -40,20 +41,20 @@
 <nav class="clearfix">
     <ul class="clearfix">
         <li><a href="#header" id="main" class="navlogo"></a></li>
-        <li><a href="#Uitgelicht" id="main">Uitgelicht</a></li>
+        <li><a href="#uitgelicht" id="main">Uitgelicht</a></li>
         <li><a href="#blog" id="main">Blog</a></li>
         <li><a href="#over" id="main">Over</a></li>
-        <li><a href="#projecten" id="main">Projecten</a></li>
         <li><a href="#team" id="main">Team</a></li>
+        <li><a href="#projecten" id="main">Projecten</a></li>
         <li><a href="#contact" id="main">Contact</a></li>
 
         <!-- Responsive menu, wordt getoond op tablet/mobiel -->
         <li><a href="#header" id="responsiveMenu" class="navlogo"></a></li>
-        <li><a href="#Uitgelicht" id="responsiveMenu">Uitgelicht</a></li>
+        <li><a href="#uitgelicht" id="responsiveMenu">Uitgelicht</a></li>
         <li><a href="#blog" id="responsiveMenu">Blog</a></li>
         <li><a href="#over" id="responsiveMenu">Over</a></li>
-        <li><a href="#projecten" id="responsiveMenu">Projecten</a></li>
         <li><a href="#team" id="responsiveMenu">Team</a></li>
+        <li><a href="#projecten" id="responsiveMenu">Projecten</a></li>
         <li><a href="#contact" id="responsiveMenu">Contact</a></li>
     </ul>
     <a href="#" id="pull">
@@ -74,7 +75,7 @@
     </section>
 </header>
 <!-- Uitgelicht -->
-<section id="Uitgelicht">
+<section id="uitgelicht">
     <div class="container">
         <div class="title">
             <h1>Uitgelicht</h1>
@@ -83,18 +84,33 @@
         <div class="flexrow">
             <div class="skill">
                 <img src="img/layers.png" alt="">
-                <h2>Web Design</h2>
-                <p>Het ontwerp process van uw website</p>
+                <h2>S.C.R.U.M. <span>Concepting</span></h2>
+                <ul>
+                    <li><p><i class="fa fa-circle" aria-hidden="true"></i>Persona's</p></li>
+                    <li><p><i class="fa fa-circle" aria-hidden="true"></i>Wireframes</p></li>
+                    <li><p><i class="fa fa-circle" aria-hidden="true"></i>User stories</p></li>
+                    <li><p><i class="fa fa-circle" aria-hidden="true"></i>User Experience Design</p></li>
+                </ul>
             </div>
             <div class="skill">
                 <img src="img/browser.png" alt="">
-                <h2>Web Development</h2>
-                <p>Het bouwen van uw website</p>
+                <h2>Web <span>Development</span></h2>
+                <ul>
+                    <li><p><i class="fa fa-circle" aria-hidden="true"></i>Responsive design</p></li>
+                    <li><p><i class="fa fa-circle" aria-hidden="true"></i>Wordpress</p></li>
+                    <li><p><i class="fa fa-circle" aria-hidden="true"></i>HTML 5</p></li>
+                    <li><p><i class="fa fa-circle" aria-hidden="true"></i>CSS 3</p></li>
+                    <li><p><i class="fa fa-circle" aria-hidden="true"></i>pHp</p></li>
+                    <li><p><i class="fa fa-circle" aria-hidden="true"></i>Javascript</p></li>
+                </ul>
             </div>
             <div class="skill">
                 <img src="img/edit.png" alt="">
-                <h2>Huisstijl</h2>
-                <p>Het ontwerp van uw huisstijl</p>
+                <h2>Huisstijl <span>Design</span></h2>
+                <ul>
+                    <li><p><i class="fa fa-circle" aria-hidden="true"></i>Huisstijl</p></li>
+                    <li><p><i class="fa fa-circle" aria-hidden="true"></i>Logo Design</p></li>
+                </ul>
             </div>
         </div>
     </div>
@@ -118,7 +134,8 @@
                     Je kan ook zelf aan je auto sleutelen op een vrije zondag, maar is dat je tijd waard en kom je er
                     dan ook echt uit? Over langere termijn is het ook goedkoper omdat web services beveiligingsonderhoud
                     nodig hebben.
-                </p><p>
+                </p>
+                <p>
                     Wij zijn Division Vitrum een kersvers en gemotiveerd bedrijf bestaande uit drie enthousiaste en
                     gezellige tweedejaars HBO Creative Media and Game Technologies studenten. Ons handelsmerk is dat wij
                     op een klantvriendelijke, gerichte en open manier de online presence van uw bedrijf verbeteren.
@@ -127,14 +144,14 @@
                     one-page website tot webwinkel met log-in systeem. Maar misschien is een Facebook pagina al een
                     oplossing voor uw bedrijf. In dit creatieve brainstorm proces betrekken wij u volledig in de
                     ontwikkeling van de webervaring.
-                </p><p>
+                </p>
+                <p>
                     Verder kunnen wij ook de branding van uw bedrijf verzorgen, denk hierbij aan een huisstijl of logo
                     design.</p>
             </div>
         </div>
     </div>
 </section>
-
 
 
 <!-- Team -->
@@ -197,7 +214,8 @@
 <footer>
     <ul>
         <li><p>V.O.F. Division <span>Vitrum</span> &copy; 2015 - <?php echo date("Y") ?></p></li>
-        <li><a href="mailto:info@divisionvitrum.com"><p>info@divisionvitrum.com</p></li></a>
+        <li><a href="mailto:info@divisionvitrum.com"><p>info@divisionvitrum.com</p></li>
+        </a>
         <li><p>Kvk. 65464664</p></li>
     </ul>
 </footer>
