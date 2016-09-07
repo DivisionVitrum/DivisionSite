@@ -8,9 +8,11 @@
                 <h1>Blog</h1>
                 <sub></sub>
             </div>
-            <h2>Left</h2>
-            <p>Hier staat 1 blogpost, iets over technologie, iets over voortgang, iets over het bedrijf</p>
-            <a href="blog/"><button type="button" name="button">Bekijk ons volledige blog</button></a>
+            <h2>Werken met GitHub</h2>
+            <p>GitHub is een platform voor open source-software. 
+                Ontwikkelaars plaatsen hier hun code, projecten en oplossingen voor diverse problemen. Wanneer deze ontwikkelaars samen werken is GitHub ideaal voor versiebeheer. </p><br>
+
+            <a href="blog/"><button type="button" name="button">Lees meer</button></a>
         </div>
     </div>
 </aside>
