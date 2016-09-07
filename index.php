@@ -90,7 +90,7 @@
                 <ul>
                     <li><p><i class="fa fa-user fa-lg" aria-hidden="true"></i>Persona's</p></li>
                     <li><p><i class="fa fa-th-large fa-lg" aria-hidden="true"></i>Wireframes</p></li>
-                    <li><p><i class="fa fa-comments-o fa-lg" aria-hidden="true"></i>User stories</p></li>
+                    <li><p><i class="fa fa-comments-o fa-lg" aria-hidden="true"></i>User Stories</p></li>
                     <li><p><i class="fa fa-book fa-lg" aria-hidden="true"></i>User Experience Design</p></li>
                 </ul>
             </div>
@@ -98,12 +98,12 @@
                 <img src="img/browser.png" alt="">
                 <h2>Web <span>Development</span></h2>
                 <ul>
-                    <li><p><i class="fa fa-mobile fa-lg" aria-hidden="true"></i>Responsive design</p></li>
-                    <li><p><i class="fa fa-wordpress fa-lg" aria-hidden="true"></i>Wordpress</p></li>
+                    <li><p><i class="fa fa-mobile fa-lg" aria-hidden="true"></i>Responsive Design</p></li>
+                    <li><p><i class="fa fa-wordpress fa-lg" aria-hidden="true"></i>WordPress</p></li>
                     <li><p><i class="fa fa-html5 fa-lg" aria-hidden="true"></i>HTML 5</p></li>
                     <li><p><i class="fa fa-css3 fa-lg" aria-hidden="true"></i>CSS 3</p></li>
-                    <li><p><i class="fa fa-database fa-lg" aria-hidden="true"></i>pHp</p></li>
-                    <li><p><i class="fa fa-code fa-lg" aria-hidden="true"></i>Javascript</p></li>
+                    <li><p><i class="fa fa-database fa-lg" aria-hidden="true"></i>PHP</p></li>
+                    <li><p><i class="fa fa-code fa-lg" aria-hidden="true"></i>JavaScript</p></li>
                 </ul>
             </div>
             <div class="skill">
