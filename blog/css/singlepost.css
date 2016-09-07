@@ -32,7 +32,7 @@ h1 span{
     color: #fb6f49;
 }
 h2{
-    font-size: 4rem;
+    font-size: 3rem;
     color: #636363;
     font-weight: 300;
 }
@@ -90,8 +90,8 @@ nav ul li:hover{
   HEADER
 ============================================================================= */
 #coverpic{
-    height: 100vh;
-    background: #ecf0f1 url("../../img/header-1080x920.jpg") no-repeat center;
+    height: 50vh;
+    background: #ecf0f1 url("../../img/githubpost.png") no-repeat center;
     background-size: cover;
 }
 #coverpic section{
@@ -102,31 +102,76 @@ nav ul li:hover{
 /* =============================================================================
   PRIMARY LAYOUT STUFF
 ============================================================================= */
-#masonry {
-    -moz-column-width: 20em;
-    -webkit-column-width: 20em;
-    -moz-column-gap: 1em;
-    -webkit-column-gap: 1em;
-    column-gap: 1em;
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row h3 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.padding {
+	padding: 0 10px;
+}
+
+.box {
+	flex: 1;
+}
+
+.card {
+    max-width: 300px;
+    margin: 0 auto 40px auto;
+    text-align: center;
+    border-radius: 0.5rem;
+    background-color: #ecf0f1;
+    overflow: hidden;
+}
+
+.card div p {
+    line-height: 1.5em;
+    padding: 0em 1em 1em 1em;
+}
+
+section #container {
+    margin: 0 auto;
     max-width: 1024px;
-    width: 90vw;
-    margin: 1em auto;
-    display: block;
-    box-sizing: border-box !important;
 }
-article {
-    display: inline-block;
+
+section #container p {
+    padding: 0px 0px 30px 0px;
+}
+
+section #container p a {
+    color: #fb6f49;
+}
+
+section #container p a:hover {
+    color: #db6140;
+}
+
+.one {
+    background: #fb6f49 url("../../img/blog1.jpg") no-repeat center / cover;
+}
+
+.two {
+    background: #fb6f49 url("../../img/blog2.jpg") no-repeat center / cover;
+}
+
+.three {
+    background: #fb6f49 url("../../img/blog3.jpg") no-repeat center / cover;
+}
+
+.pic {
     width: 100%;
-    background: #efefef;
-    box-sizing: border-box !important;
-    margin: 0 0 1em 0;
+    height: 200px;
 }
-article img{
-    width: 100%;
+
+.center a {
+    color: inherit;
 }
-article div{
-    padding: 1em;
-}
+
 @-webkit-keyframes moveUp {
     0% { }
     100% { -webkit-transform: translateY(0); opacity: 1; }
@@ -137,23 +182,6 @@ article div{
     100% { -webkit-transform: translateY(0); transform: translateY(0); opacity: 1; }
 }
 
-button{
-   margin: 2rem 0 1rem 0;
-   padding: 0.7rem 1.7rem;
-   font-size: 1em;
-   background-color: transparent;
-   border: 3px solid #fb6f49;
-   -webkit-transition: 250ms;
-   -moz-transition: 250ms;
-   -ms-transition: 250ms;
-   -o-transition: 250ms;
-   transition: 250ms;
-}
-button:hover{
-   border: 3px solid #fb6f49;
-   background-color: #fb6f49;
-   color: #fff;
-}
 /* =============================================================================
   RESPONSIVE
 ============================================================================= */
@@ -172,7 +200,24 @@ nav a#pull {
     display: none;
 }
 
+@media screen and (max-width: 1280px) {
+	section #container {
+		padding: 0rem 1rem 0rem 1rem;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.row {
+        flex-direction: column;
+    }
+
+    .card {
+    	max-width: 500px;
+    }
+}
+
 @media screen and (max-width : 600px) {
+    
     #responsiveMenu {
         display: block;
     }
@@ -209,9 +254,6 @@ nav a#pull {
     }
     nav li a {
         border-bottom: 1px solid #576979;
-    }
-    .row {
-        flex-direction: column;
     }
 }
 
