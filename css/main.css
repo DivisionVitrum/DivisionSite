@@ -122,7 +122,12 @@ header{
    width: 100vw;
    max-width:100%;
    height: 100vh;
-   background: #232323 url("../img/header-1080x920.jpg") no-repeat fixed center / cover;
+   background-color: #232323;
+   background-image: url("../img/header-1080x920.jpg");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
 }
 header section{
    margin: 0 auto;
@@ -220,7 +225,8 @@ BLOG
 .blogpic{
    width: 100%;
    height: 100vh;
-   background: #232323 url("../img/blogpost1.jpg") no-repeat fixed 500px / cover;
+   background: #232323 url("../img/blogpost1.jpg") no-repeat fixed center / cover;
+   background-size: cover;
 }
 .blogresponsive:nth-child(1){
    display: none;
