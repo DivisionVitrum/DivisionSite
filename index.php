@@ -126,30 +126,28 @@
     <div class="container">
         <div class="over">
             <div class="title">
-                <h1>Wat doen wij?</h1>
+                <h1>Over <span>ons</span></h1>
                 <sub></sub>
-                <p> Tegenwoordig is het cruciaal voor ieder klein maar ook groot bedrijf om online aanwezig te zijn. Een
-                    digital experience draagt bij aan het imago en de uitstraling van het bedrijf.
-
-                    Je kan ook zelf aan je auto sleutelen op een vrije zondag, maar is dat je tijd waard en kom je er
-                    dan ook echt uit? Over langere termijn is het ook goedkoper omdat web services beveiligingsonderhoud
-                    nodig hebben.
-                </p>
-                <p>
-                    Wij zijn Division Vitrum een kersvers en gemotiveerd bedrijf bestaande uit drie enthousiaste en
-                    gezellige tweedejaars HBO Creative Media and Game Technologies studenten. Ons handelsmerk is dat wij
-                    op een klantvriendelijke, gerichte en open manier de online presence van uw bedrijf verbeteren.
-
-                    Samen gaan we kijken wat voor online applicatie uw bedrijf nodig heeft, onze capaciteiten liggen van
-                    one-page website tot webwinkel met log-in systeem. Maar misschien is een Facebook pagina al een
-                    oplossing voor uw bedrijf. In dit creatieve brainstorm proces betrekken wij u volledig in de
-                    ontwikkeling van de webervaring.
-                </p>
-                <p>
-                    Verder kunnen wij ook de branding van uw bedrijf verzorgen, denk hierbij aan een huisstijl of logo
-                    design.</p>
             </div>
+            <p> Tegenwoordig is het cruciaal voor ieder klein maar ook groot bedrijf om online aanwezig te zijn. Een
+                digital experience draagt bij aan het imago en de uitstraling van het bedrijf.
+
+                Je kan ook zelf aan je auto sleutelen op een vrije zondag, maar is dat je tijd waard en kom je er
+                dan ook echt uit? Over langere termijn is het ook goedkoper omdat web services beveiligingsonderhoud
+                nodig hebben.
+            </p>
+            <p>
+                Wij zijn Division Vitrum een kersvers en gemotiveerd bedrijf bestaande uit drie enthousiaste en
+                gezellige tweedejaars HBO Creative Media and Game Technologies studenten. Ons handelsmerk is dat wij
+                op een klantvriendelijke, gerichte en open manier de online presence van uw bedrijf verbeteren.
+
+                Samen gaan we kijken wat voor online applicatie uw bedrijf nodig heeft, onze capaciteiten liggen van
+                one-page website tot webwinkel met log-in systeem. Maar misschien is een Facebook pagina al een
+                oplossing voor uw bedrijf. In dit creatieve brainstorm proces betrekken wij u volledig in de
+                ontwikkeling van de webervaring.
+            </p>
         </div>
+    </div>
     </div>
 </section>
 

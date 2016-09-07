@@ -226,29 +226,35 @@ BLOG
    display: none;
 }
 /* =============================================================================
-WAT DOEN WIJ
+Over ons
 ============================================================================= */
 section#over {
    /* Background picture*/
    width: 100vw;
    max-width: 100%;
-   height: 100vh;
+   min-height: 100vh;
    background: #232323 url("../img/eye.jpg") no-repeat fixed center / cover;
 }
 
-.over {
+#over .over {
    margin: 0 auto;
    background-color: white;
-   padding: 0 30px;
+   padding: 0 15px 30px 15px;
    width: 100vh;
 }
 
-.over p {
-   padding: 25px 5px 0 5px;
+#over .over .title {
+   padding: 30px 0 40px 0;
 }
 
-.over .title {
-   padding: 30px 0 40px 0;
+#over .over p {
+   text-align: justify;
+   margin: 20px;
+
+}
+
+#over span {
+   color: #fb6f49;
 }
 
 /* =============================================================================
@@ -272,7 +278,7 @@ Team
    width: 12rem;
    height: 12rem;
    margin: 0 auto 2rem auto;
-   background: #fb6f49 center / cover;
+   background:  center / cover;
    border-radius: 100%;
 }
 .team .avatar.niels{background-image: url("../img/niels.jpg")}
@@ -428,6 +434,8 @@ nav a#pull {
    .blogpicdesktop{
       display: none;
    }
+
+
 }
 @media only screen and (max-width : 800px) {
    footer ul {
@@ -436,6 +444,13 @@ nav a#pull {
    footer ul li {
       padding: 1vh 0;
    }
+
+   /* Over ons */
+   #over .over {
+      width: 70vh;
+   }
+
+
 }
 
 
@@ -470,6 +485,10 @@ nav a#pull {
    nav li a {
       border-bottom: 1px solid #576979;
    }
+   /* Over ons */
+   #over .over {
+      width: 40vh;
+   }
 }
 
 @media only screen and (max-width : 320px) {
@@ -483,6 +502,14 @@ nav a#pull {
    }
    #arrow {
       display: none !important;
+   }
+   /* Over ons */
+   #over .over {
+      width: 45vh;
+   }
+   #over .over p {
+      text-align: justify;
+       margin: 0 auto;
    }
 }
 
