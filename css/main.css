@@ -293,6 +293,37 @@ form textarea:focus {
    padding:10px;
    overflow: auto;
 }
+
+/* =============================================================================
+Footer
+============================================================================= */
+footer {
+   max-width: 100%;
+   height: auto;
+   margin: -79px 0 0 0;
+   background-color: #363636;
+}
+
+footer ul{
+   display: flex;
+}
+
+footer ul li {
+   min-width: 33.33vw;
+   flex: 1;
+   padding: 4vh 0;
+   text-align: center;
+}
+
+footer ul li p {
+   font-family: "Roboto Slab";
+   color: #ecf0f1;
+}
+
+footer span {
+   color: #fb6f49;
+}
+
 /* =============================================================================
 RESPONSIVE PORTRAIT
 ============================================================================= */
@@ -375,6 +406,15 @@ nav a#pull {
       display: none;
    }
 }
+@media only screen and (max-width : 800px) {
+   footer ul {
+      display: block;
+   }
+   footer ul li {
+      padding: 1vh 0;
+   }
+}
+
 
 @media only screen and (max-width : 480px) {
    nav.navscroll{height: 0}
