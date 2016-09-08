@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!-- google -->
-    <meta name="description" content="Wij zijn Division Vitrum een kersvers en gemotiveerd bedrijf bestaande uit drie enthousiaste en gezellige tweedejaars HBO Creative Media and Game Technologies studenten. Ons handelsmerk is dat wij op een klantvriendelijke, gerichte en open manier de online presence van uw bedrijf verbeteren." />
+    <meta name="description" content="Wij zijn Division Vitrum, een kersvers en gemotiveerd bedrijf bestaande uit drie enthousiaste en gezellige tweedejaars HBO Creative Media and Game Technologies studenten. Ons handelsmerk is dat wij op een klantvriendelijke, gerichte en open manier de online presence van uw bedrijf verbeteren." />
     <meta name="robots" content="index,follow" />
     <!-- facebook -->
     <meta property="og:image" content="http://www.divisionvitrum.nl/img/fb.jpg"/>
-    <meta property="og:description" content="Wij zijn Division Vitrum een kersvers en gemotiveerd bedrijf bestaande uit drie enthousiaste en gezellige tweedejaars HBO Creative Media and Game Technologies studenten. Ons handelsmerk is dat wij op een klantvriendelijke, gerichte en open manier de online presence van uw bedrijf verbeteren."/>
+    <meta property="og:description" content="Wij zijn Division Vitrum, een kersvers en gemotiveerd bedrijf bestaande uit drie enthousiaste en gezellige tweedejaars HBO Creative Media and Game Technologies studenten. Ons handelsmerk is dat wij op een klantvriendelijke, gerichte en open manier de online presence van uw bedrijf verbeteren."/>
     <!--favicon-->
     <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
