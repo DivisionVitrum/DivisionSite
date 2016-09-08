@@ -14,7 +14,7 @@ GENERAL
    border:0;
 }
 html{
-   overflow: hidden;
+   overflow-x: hidden;
 }
 li{
    list-style: none;
