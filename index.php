@@ -219,7 +219,7 @@
 <!-- Footer -->
 <footer>
     <ul>
-        <li><p>V.O.F. Division <span>Vitrum</span> &copy; 2015 - <?php echo date("Y") ?></p></li>
+        <li><p>V.O.F. Division <span>Vitrum</span> &copy; <?php echo date("Y") ?></p></li>
         <li><a href="mailto:info@divisionvitrum.com"><p>info@divisionvitrum.com</p></li>
         </a>
         <li><p>Kvk. 65464664</p></li>
