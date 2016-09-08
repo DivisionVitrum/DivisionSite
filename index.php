@@ -39,6 +39,7 @@
     <title>Division Vitrum</title>
 </head>
 <body>
+<?php include_once("includes/analytics.php") ?>
 <!-- navigation -->
 <nav class="clearfix">
     <ul class="clearfix">

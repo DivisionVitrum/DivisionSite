@@ -252,6 +252,8 @@ nav a#pull {
     nav ul {
         display: none;
         height: auto;
+        text-align: center;
+        background-color: rgba(212, 216, 217, 0.60);
     }
     nav a#pull {
         display: block;

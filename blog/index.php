@@ -38,6 +38,7 @@
     <![endif]-->
 </head>
 <body>
+<?php include_once("../includes/analytics.php") ?>
 <nav class="clearfix">
     <ul class="clearfix">
         <li><a href="../" id="main" class="navlogo"></a></li>

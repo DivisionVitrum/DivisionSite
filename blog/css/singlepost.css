@@ -286,9 +286,14 @@ nav a#pull {
     nav {
         border-bottom: 0;
     }
+    nav.navscroll{
+        height:0;
+    }
     nav ul {
         display: none;
         height: auto;
+        text-align: center;
+        background-color: rgba(212, 216, 217, 0.60);
     }
     nav a#pull {
         display: block;

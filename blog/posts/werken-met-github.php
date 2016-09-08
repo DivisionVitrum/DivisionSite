@@ -44,6 +44,7 @@ $title = "Werken met GitHub";
     <![endif]-->
 </head>
 <body>
+<?php include_once("../../includes/analytics.php") ?>
 
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
