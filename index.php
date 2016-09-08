@@ -145,8 +145,8 @@
                 gezellige tweedejaars HBO Creative Media and Game Technologies studenten. Ons handelsmerk is dat wij
                 op een klantvriendelijke, gerichte en open manier de online presence van uw bedrijf verbeteren.
 
-                Samen gaan we kijken wat voor online applicatie uw bedrijf nodig heeft, onze capaciteiten liggen van
-                one-page websites tot webwinkels met log-in systeem. Maar misschien is een Facebook pagina al een
+                Samen gaan we kijken wat voor online applicatie uw bedrijf nodig heeft. Onze capaciteiten liggen van
+                one-page websites tot webwinkels met log-in systeem. Maar misschien is een Facebookpagina al een
                 oplossing voor uw bedrijf. In dit creatieve brainstorm proces betrekken wij u volledig in de
                 ontwikkeling van de webervaring.
             </p>
