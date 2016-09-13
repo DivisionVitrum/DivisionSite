@@ -72,7 +72,7 @@
 <section>
     <div id="masonry">
         <article>
-            <img src="../img/blogpost1.jpg">
+            <img src="../img/githubpost2.jpg">
             <div>
                 <h3>Werken met GitHub</h3>
                 <p>Wij werken áltijd met GitHub. Maar wat is GitHub nu precies?</p>
