@@ -115,7 +115,7 @@ nav ul li a:hover, .active{
 ============================================================================= */
 #coverpic{
     height: 50vh;
-    background: #ecf0f1 url("../../img/blogpost1.jpg") no-repeat center;
+    background: #ecf0f1 url("../../img/githubpost2.jpg") no-repeat center;
     background-size: cover;
 }
 #coverpic section{
