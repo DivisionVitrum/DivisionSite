@@ -10,6 +10,9 @@ $title = "Werken met GitHub";
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- facebook -->
+    <meta property="og:image" content="http://www.divisionvitrum.nl/img/githubpost2.jpg"/>
+    <meta property="og:description" content="Wij zijn Division Vitrum, een kersvers en gemotiveerd bedrijf bestaande uit drie enthousiaste en gezellige tweedejaars HBO Creative Media and Game Technologies studenten. Ons handelsmerk is dat wij op een klantvriendelijke, gerichte en open manier de online presence van uw bedrijf verbeteren."/>
     <!--favicon-->
     <link rel="apple-touch-icon" sizes="57x57" href="../../img/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="../../img/favicon/apple-icon-60x60.png">
@@ -25,6 +28,7 @@ $title = "Werken met GitHub";
     <link rel="icon" type="image/png" sizes="96x96" href="../../img/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../../img/favicon/favicon-16x16.png">
     <link rel="manifest" href="../../img/favicon/manifest.json">
+
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="../../img/favicon//ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
