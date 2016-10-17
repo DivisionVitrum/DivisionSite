@@ -49,10 +49,10 @@
     <ul class="clearfix">
         <li><a href="#header" id="main" class="navlogo"></a></li>
         <li><a href="#uitgelicht" id="main">Uitgelicht</a></li>
-        <li><a href="#blog" id="main">Blog</a></li>
         <li><a href="#over" id="main">Over</a></li>
         <li><a href="#team" id="main">Team</a></li>
         <li><a href="#projecten" id="main">Projecten</a></li>
+        <li><a href="#blog" id="main">Blog</a></li>
         <li><a href="#contact" id="main">Contact</a></li>
 
         <!-- Responsive menu, wordt getoond op tablet/mobiel -->
