@@ -1,0 +1,107 @@
+/*Darkest       #232323*/
+/*Darkest text  #363636*/
+/*Dark text		#464646*/
+/*Regular text	#636363*/
+/*Light	text	#898989*/
+/*Highlight	    #fb6f49*/
+/*Highlight2    #db6140*/
+/* =============================================================================
+GENERAL
+============================================================================= */
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+/*general font family and color*/
+section p,a,h1,h2,h3,h4,h5,h6,span,button,label{font-family: "Roboto Slab"; color: #363636;}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 300;
+    margin: 1em 0;
+    color: #636363;
+}
+h1 span{
+    color: #fb6f49;
+}
+button{
+    margin: 2rem;
+    padding: 0.7rem 1.7rem;
+    font-size: 1em;
+    background-color: transparent;
+    border: 3px solid #fb6f49;
+    -webkit-transition:border, color, background 250ms;
+    -moz-transition:border, color, background 250ms;
+    -ms-transition:border, color, background 250ms;
+    -o-transition:border, color, background 250ms;
+    transition:border, color, background 250ms;
+}
+button:hover{
+    border: 3px solid #fb6f49;
+    background-color: #fb6f49;
+    color: #fff;
+}
+/* =============================================================================
+FORM
+============================================================================= */
+form {
+    width: 20vw;
+    margin: 0 auto;
+    text-align: center;
+}
+form input, textarea {
+    width: 20vw;
+    height: 45px;
+    margin: 10px 0px;
+    padding: 0px 10px;
+    font-family: Roboto;
+    font-size: 1em;
+    border-bottom: 2px solid rgba(251, 111, 73, 0.4);
+
+    -webkit-transition:border 500ms;
+    -moz-transition:border 500ms;
+    -ms-transition:border 500ms;
+    -o-transition:border 500ms;
+    transition:border 500ms;
+}
+form input:focus, textarea:focus {
+    border-bottom: 2px solid #fb6f49;
+    outline: 0;
+}
+form textarea {
+    padding:10px;
+    overflow: auto;
+}
+form textarea:focus {
+    height: 200px;
+    padding:10px;
+    overflow: auto;
+}
+label{
+    float: left;
+    color: #fb6f49;
+}
+/* =============================================================================
+INLOG
+============================================================================= */
+main{
+    width: 100%;
+    max-width: 100vw;
+    height: 100vh;
+    background: #232323 url("bg.jpg") no-repeat fixed center / cover;
+    overflow: auto;
+    text-align: center;
+}
+#card{
+    width: 40vw;
+    height: 60vh;
+    margin: 10vh auto 0 auto;
+    padding:1em;
+
+    background: white;
+    border-radius: 1vh;
+}

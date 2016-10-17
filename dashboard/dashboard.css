@@ -1,0 +1,134 @@
+/*Darkest       #232323*/
+/*Darkest text  #363636*/
+/*Dark text		#464646*/
+/*Regular text	#636363*/
+/*Light	text	#898989*/
+/*Highlight	    #fb6f49*/
+/*Highlight2    #db6140*/
+/* =============================================================================
+GENERAL
+============================================================================= */
+*{
+    margin:0;
+    padding:0;
+}
+/*general font family and color*/
+section p,a,h1,h2,h3,h4,h5,h6,span,input,label{font-family: "Roboto Slab"; color: #363636;}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 300;
+    margin: 0 0 1em 0;
+    color: #636363;
+}
+h1 span{
+    color: #fb6f49;
+}
+/* =============================================================================
+SIDEBAR
+============================================================================= */
+aside{
+    width: 60px;
+    height: 100vh;
+    float: left;
+    background: rgb(35,37,44);
+}
+aside ul{
+    width: 100%;
+    height: auto;
+    margin-bottom: 63vh;
+    background: rgb(35,37,44);
+    border-bottom: 1px solid rgb(23,24,28);
+    box-shadow: 0 1px 0 rgb(44,45,52);
+}
+aside ul li{
+    width: 57px;
+    height: 60px;
+    text-align: center;
+    color: #9298AB;
+    border-left: 3px solid transparent;
+}
+aside ul li:hover{
+    border-left: 3px solid #fb6f49;
+}
+aside ul #logo{
+    width: 60px;
+    border: 0;
+    background: transparent url("../img/V_Logo_Small.png") no-repeat center / 30px;
+}
+aside ul #logo:hover{width:60px;border: 0;}
+aside ul li i{
+    font-size: 1.1em !important;
+    margin: 1em;
+}
+.active{
+    border-left: 3px solid #fb6f49;
+    color: #fff;
+}
+aside #logout{
+    width: 60px;
+    text-align: center;
+}
+aside #logout a{
+    color: #9298AB;
+    font-size: 1.2em;
+}
+aside #logout a:hover{
+    color: white;
+}
+/* =============================================================================
+MAIN DASHBOARD
+============================================================================= */
+main{
+    width: calc(100% - 60px);
+    height: 100vh;
+    padding: 1vw 5vw;
+    float: left;
+    display: none;
+    box-sizing: border-box;
+}
+/* =============================================================================
+EDITORS
+============================================================================= */
+#bloglines, #projectlines{
+    padding: 5px 5px 0 0;
+    float: left;
+}
+#bloglines li, #projectlines li{
+    height: 18.1px;
+    list-style: none;
+    font: normal 14px "Source Code Pro";
+    text-align: right;
+}
+textarea{
+    width: 80vw;
+    height: 50vh;
+    padding: 5px;
+    float: left;
+    font: normal 14px "Source Code Pro";
+    border: 1px solid #363636;
+    overflow: scroll;
+}
+textarea:focus {
+    outline:none;
+}
+input[type="submit"]{
+    margin: 20px;
+    padding: 7px 20px;
+    font-size: 1em;
+    background-color: transparent;
+    border: 3px solid #fb6f49;
+    -webkit-transition: 250ms;
+    -moz-transition: 250ms;
+    -ms-transition: 250ms;
+    -o-transition: 250ms;
+    transition: 250ms;
+}
+input[type="submit"]:hover{
+    border: 3px solid #fb6f49;
+    background-color: #fb6f49;
+    color: #fff;
+}
