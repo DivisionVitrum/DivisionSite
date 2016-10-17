@@ -124,11 +124,6 @@
     </div>
 </section>
 
-<!-- Blog section -->
-<section class="odd" id="blog">
-    <?php include "includes/blog.php" ?>
-</section>
-
 <!-- Wat doen wij section -->
 <section id="over">
     <div class="container">
@@ -159,9 +154,8 @@
     </div>
 </section>
 
-
 <!-- Team -->
-<section class="odd" id="team">
+<section class="" id="team">
     <div class="container">
         <div class="title">
             <h1>Team</h1>
@@ -188,11 +182,16 @@
 </section>
 
 <!-- Projecten section -->
+<section class="odd" id="projecten">
+    <?php include "includes/project2.php" ?>
+</section>
 <section id="projecten">
     <?php include "includes/project.php" ?>
 </section>
-<section id="projecten">
-    <?php include "includes/project2.php" ?>
+
+<!-- Blog section -->
+<section class="odd" id="blog">
+    <?php include "includes/blog.php" ?>
 </section>
 
 <!-- Contact -->

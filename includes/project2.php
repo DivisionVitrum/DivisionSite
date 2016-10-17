@@ -2,10 +2,10 @@
     <div class="flexrow">
         <div class="post">
             <div class="title">
-                <h1>Project</h1>
+                <h1>Zij & ik entertainment</h1>
                 <sub></sub>
             </div>
-            <h2>Zij en ik entertainment</h2>
+            <h2>Responsive website + design</h2>
             <p>Een website voor een komisch duo. Momenteel zijn we nog bezig met deze website!
             </p>
             <a href="http://www.zijenik.nl/" target="_blank">
