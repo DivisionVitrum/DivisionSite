@@ -1,0 +1,354 @@
+/*Darkest	 #363636*/
+/*Dark		 #464646*/
+/*Regular	 #636363*/
+/*Light		 #898989*/
+/*Highlight	 #fb6f49*/
+/*Highlight2 #db6140*/
+/* =============================================================================
+  GENERAL
+============================================================================= */
+*{
+    border: 0;
+    margin: 0;
+    padding:0;
+}
+a,p,h1,h2,h3,h4,h5,h6{font-family: 'Roboto Slab'}
+p{font-size: 0.9rem}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/* =============================================================================
+  FONTS
+============================================================================= */
+h1{
+    font-size: 3rem;
+    color: #636363;
+    font-weight: 300;
+}
+h1 span{
+    color: #fb6f49;
+}
+h2{
+    font-size: 4rem;
+    color: #636363;
+    font-weight: 300;
+}
+h4{
+    font-size: 3rem;
+    color: #ecf0f1;
+    font-weight: 300;
+}
+/* =============================================================================
+NAV
+============================================================================= */
+nav{
+    width: 100vw;
+    max-width:100%;
+    height: 0;
+    position: fixed;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(212, 216, 217, 0.0);
+    z-index: 10;
+
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+nav.navscroll{
+    height: 3.3rem;
+    background-color: rgba(212, 216, 217, 0.60);
+    border-bottom: 1px solid rgba(212, 216, 217, 0.60);
+}
+nav ul{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+nav ul li a.navlogo{
+    width: 2rem;
+    height: 2rem;
+    padding: 0;
+    margin: 0.7rem 1rem 0 1rem;
+    background: transparent url("../../img/V_Logo_Small.png") no-repeat center / cover;
+}
+nav ul li a.navlogo:hover{
+    background-color: transparent !important;
+    border: transparent !important;
+}
+nav ul li a.blogback{
+    width: 2rem;
+    height: 1rem;
+    padding: 0;
+    margin: 1.2rem 1rem 0 1rem;
+    background: transparent url("../../img/ui/blog_back.png") no-repeat center / cover;
+}
+nav ul li a.blogback:hover{
+    background-color: transparent !important;
+    border: transparent !important;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    margin: 0;
+    padding: 1rem;
+    display: inline-block;
+    border-bottom: 1px solid rgba(255, 112, 74, 0);
+
+    color: #ecf0f1;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+.navAscroll{
+    color: #363636
+}
+nav ul li a:hover, .active{
+    background-color: rgba(255, 112, 74, 0.60);
+    border-bottom: 1px solid rgba(255, 112, 74, 0.60);
+}
+/*---responsive menu---*/
+#responsiveMenu {
+    display: none;
+    color: #363636;
+}
+/* =============================================================================
+  HEADER
+============================================================================= */
+#coverpic{
+    height: 100vh;
+    background: #ecf0f1 url("../../img/header-1080x920.jpg") no-repeat center;
+    background-size: cover;
+}
+#coverpic section{
+    margin: 0 auto;
+    padding: 25vh 0 0 0;
+    text-align: center;
+}
+/* =============================================================================
+  PRIMARY LAYOUT STUFF
+============================================================================= */
+article {
+    width: 80vw;
+    height: 30vh;
+    float: left;
+    background: #efefef;
+    display: inline-block;
+    box-sizing: border-box !important;
+    margin: 0 0 1em 0;
+    z-index: 0;
+
+    -webkit-backface-visibility: hidden;
+
+    -webkit-transition: 250ms;
+    -moz-transition: 250ms;
+    -ms-transition: 250ms;
+    -o-transition: 250ms;
+    transition: 250ms;
+}
+article:hover{
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -o-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+article img{
+    height: 30vh;
+    float: left;
+}
+article div{
+    width: 30vw;
+    float: left;
+    padding: 1em;
+}
+@-webkit-keyframes moveUp {
+    0% { }
+    100% { -webkit-transform: translateY(0); opacity: 1; }
+}
+
+@keyframes moveUp {
+    0% { }
+    100% { -webkit-transform: translateY(0); transform: translateY(0); opacity: 1; }
+}
+/* =============================================================================
+  RESPONSIVE
+============================================================================= */
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+nav a#pull {
+    display: none;
+}
+
+@media screen and (max-width : 600px) {
+    #responsiveMenu {
+        display: block;
+    }
+    #main {
+        display: none;
+    }
+    nav {
+        border-bottom: 0;
+    }
+    nav ul {
+        display: none;
+        height: auto;
+    }
+    nav a#pull {
+        width: 100%;
+        height: 40px;
+        color: #636363;
+        background-color: #ecf0f1;
+        display: block;
+        position: relative;
+        vertical-align: center;
+    }
+    #pull p {
+        padding: 10px;
+        float: left;
+    }
+    #pull span {
+        color: #fb6f49;
+    }
+    nav li {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    nav li a {
+        border-bottom: 1px solid #576979;
+    }
+    .row {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width : 480px) {
+    nav {
+        border-bottom: 0;
+    }
+    nav ul {
+        display: none;
+        height: auto;
+    }
+    nav a#pull {
+        height: 40px;
+        width: 100%;
+        color: #636363;
+        background-color: #ecf0f1;
+        display: block;
+        position: relative;
+        vertical-align: center;
+    }
+    #pull span {
+        color: #fb6f49;
+    }
+    nav li {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    nav li a {
+        border-bottom: 1px solid #576979;
+    }
+    #coverpic section{
+        padding: 18vh 0 0 0;
+    }
+    #coverpic section img{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width : 320px) {
+    nav li {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    nav li a {
+        border-bottom: 1px solid #576979;
+    }
+}
+/* =============================================================================
+  NAV ICON
+============================================================================= */
+#nav-icon3 {
+    width: 20px;
+    position: relative;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    float: right;
+}
+#nav-icon3 span {
+    display: block;
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background: #fb6f49;
+    border-radius: 1px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+#nav-icon3 span:nth-child(1) {
+    top: 11px;
+    left: -24px;
+}
+#nav-icon3 span:nth-child(2),#nav-icon3 span:nth-child(3) {
+    top: 18px;
+    left: -24px;
+}
+#nav-icon3 span:nth-child(4) {
+    top: 25px;
+    left: -24px;
+}
+#nav-icon3.open span:nth-child(1) {
+    top: 18px;
+    width: 0%;
+    left: -10px;
+}
+#nav-icon3.open span:nth-child(2) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+#nav-icon3.open span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+#nav-icon3.open span:nth-child(4) {
+    top: 18px;
+    width: 0%;
+    left: -10px;
+}
