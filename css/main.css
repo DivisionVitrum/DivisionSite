@@ -270,6 +270,12 @@ Projecten
    height: 100vh;
    background: #232323 url("../img/projectpic2.jpg") no-repeat fixed -300px / cover;
 }
+
+.projectpic2{
+   width: 100%;
+   height: 100vh;
+   background: #232323 url("../img/zijenik.jpg") no-repeat fixed 400px / cover;
+}
 /* =============================================================================
 Team
 ============================================================================= */

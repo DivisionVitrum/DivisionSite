@@ -191,6 +191,9 @@
 <section id="projecten">
     <?php include "includes/project.php" ?>
 </section>
+<section id="projecten">
+    <?php include "includes/project2.php" ?>
+</section>
 
 <!-- Contact -->
 <section id="contact">

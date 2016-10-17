@@ -5,7 +5,7 @@
     <div class="flexrow">
         <div class="post">
             <div class="title">
-                <h1>Projecten</h1>
+                <h1>Project</h1>
                 <sub></sub>
             </div>
             <h2>Voet en Los</h2>
