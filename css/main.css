@@ -150,13 +150,13 @@ section.odd{
    padding: 0 0 10vh 0;
    text-align: center;
 }
-.title sub{
+.title sub, .title_2 sub{
    width: 50px;
    height: 6px;
    display: inline-block;
    background-color: #fb6f49;
 }
-.flexrow{
+.flexrow, .flexrow2{
    display: flex;
    flex-wrap: wrap;
 }
@@ -222,6 +222,15 @@ BLOG
 .post .title{
    padding: 10vh 0 10vh 0;
 }
+
+.post_2{
+   flex: 1;
+   padding: 0 4vw;
+}
+.post_2 .title_2{
+   padding: 10vh 0 10vh 0;
+}
+
 .blogpic{
    width: 100%;
    height: 100vh;
@@ -274,7 +283,7 @@ Projecten
 .projectpic2{
    width: 100%;
    height: 100vh;
-   background: #232323 url("../img/zijenik.jpg") no-repeat fixed 400px / cover;
+   background: #232323 url("../img/zijenik.jpg") no-repeat fixed 300px / cover;
 }
 /* =============================================================================
 Team
@@ -462,6 +471,9 @@ nav a#pull {
    .projectpic{
       background-position-x: -40vw;
    }
+   .projectpic2{
+      background-position-x: -40vw;
+   }
 
 }
 @media only screen and (max-width : 800px) {
@@ -515,6 +527,9 @@ nav a#pull {
    }
    footer{
       margin: 0 0 0 0;;
+   }
+   .projectpic2{
+      background-position-x: -80vw;
    }
 }
 
