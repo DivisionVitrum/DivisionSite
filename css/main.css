@@ -549,6 +549,12 @@ nav a#pull {
    }
 }
 
+@media only screen and (max-width : 360px) {
+    .title_2 h1, .title h1 {
+      font-size: 3rem;
+   }  
+}
+
 @media only screen and (max-width : 320px) {
    nav li {
       display: block;
@@ -582,9 +588,10 @@ nav a#pull {
 }
 
 /* =============================================================================
-RESPONSIVE LANDSCAPE
+RESPONSIVE LANDSCAPE (mostly iPhone)
 ============================================================================= */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+/*iPhone 4/5  */ 
    #responsiveMenu {
       display: block;
    }
@@ -643,17 +650,37 @@ RESPONSIVE LANDSCAPE
    #over .over {
       width: 80%;
    }
-   .title h1 {
+   .title h1, .title_2 h1 {
       font-size: 2.5rem;
    }
-   .post_2 .title_2 {
-      padding: 5vh 0 1vh 0;
+   .post_2 .title_2, .post .title {
+      padding: 1vh 0 1vh 0;
    }
-   .post .title {
-      padding: 5vh 0 1vh 0;
+   .projectpic, .projectpic2 {
+      background-position-x: 0;
    }
    footer {
       margin: -20px 0px 0px;
+   }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+/*iPhone 6/6 plus */  
+   .post_2 .title_2, .post .title {
+       padding: 5vh 0 3vh 0;
+   }
+   .title h1, .title_2 h1 {
+      font-size: 2rem;
+   }
+
+   form {
+      margin-bottom: 10vh;
+   }
+   .title {
+      padding: 0;
+   }
+   #over .over {
+       width: 85%;
    }
 }
 
