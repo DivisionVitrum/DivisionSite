@@ -95,15 +95,15 @@
                 <ul>
                     <li><p><i class="fa fa-user fa-lg" aria-hidden="true"></i>Persona's</p></li>
                     <li><p><i class="fa fa-th-large fa-lg" aria-hidden="true"></i>Wireframes</p></li>
-                    <li><p><i class="fa fa-comments-o fa-lg" aria-hidden="true"></i>User Stories</p></li>
-                    <li><p><i class="fa fa-book fa-lg" aria-hidden="true"></i>User Experience Design</p></li>
+                    <li><p><i class="fa fa-comments-o fa-lg" aria-hidden="true"></i>User stories</p></li>
+                    <li><p><i class="fa fa-book fa-lg" aria-hidden="true"></i>User experience design</p></li>
                 </ul>
             </div>
             <div class="skill">
                 <img src="img/browser.png" alt="">
                 <h2>Web <span>Development</span></h2>
                 <ul>
-                    <li><p><i class="fa fa-mobile fa-lg" aria-hidden="true"></i>Responsive Design</p></li>
+                    <li><p><i class="fa fa-mobile fa-lg" aria-hidden="true"></i>Responsive design</p></li>
                     <li><p><i class="fa fa-wordpress fa-lg" aria-hidden="true"></i>WordPress</p></li>
                     <li><p><i class="fa fa-html5 fa-lg" aria-hidden="true"></i>HTML 5</p></li>
                     <li><p><i class="fa fa-css3 fa-lg" aria-hidden="true"></i>CSS 3</p></li>
@@ -115,7 +115,7 @@
                 <img src="img/edit.png" alt="">
                 <h2>Huisstijl <span>Design</span></h2>
                 <ul>
-                    <li><p><i class="fa fa-ra fa-lg" aria-hidden="true"></i>Logo Design</p></li>
+                    <li><p><i class="fa fa-ra fa-lg" aria-hidden="true"></i>Logo design</p></li>
                     <li><p><i class="fa fa-file-text fa-lg" aria-hidden="true"></i>Briefpapier</p></li>
                     <li><p><i class="fa fa-envelope fa-lg" aria-hidden="true"></i>Visitekaartjes</p></li>
                 </ul>
@@ -142,9 +142,9 @@
             <p>
                 Wij zijn Division Vitrum, een kersvers en gemotiveerd bedrijf bestaande uit drie enthousiaste en
                 gezellige tweedejaars HBO Creative Media and Game Technologies studenten. Ons handelsmerk is dat wij
-                op een klantvriendelijke, gerichte en open manier de online presence van uw bedrijf verbeteren.
+                op een gerichte, klantvriendelijke, en open manier de online presence van uw bedrijf verbeteren.
 
-                Samen gaan we kijken wat voor online applicatie uw bedrijf nodig heeft. Onze capaciteiten liggen van
+                Samen met u gaan wij kijken wat voor online applicatie uw bedrijf nodig heeft. Onze capaciteiten liggen van
                 one-page websites tot webwinkels met log-in systeem. Maar misschien is een Facebookpagina al een
                 oplossing voor uw bedrijf. In dit creatieve brainstorm proces betrekken wij u volledig in de
                 ontwikkeling van de webervaring.
