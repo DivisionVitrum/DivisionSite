@@ -58,10 +58,10 @@
         <!-- Responsive menu, wordt getoond op tablet/mobiel -->
         <li><a href="#header" id="responsiveMenu" class="navlogo"></a></li>
         <li><a href="#uitgelicht" id="responsiveMenu">Uitgelicht</a></li>
-        <li><a href="#blog" id="responsiveMenu">Blog</a></li>
         <li><a href="#over" id="responsiveMenu">Over</a></li>
         <li><a href="#team" id="responsiveMenu">Team</a></li>
         <li><a href="#projecten" id="responsiveMenu">Projecten</a></li>
+        <li><a href="#blog" id="responsiveMenu">Blog</a></li>
         <li><a href="#contact" id="responsiveMenu">Contact</a></li>
     </ul>
     <a href="#" id="pull">
