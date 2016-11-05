@@ -64,7 +64,6 @@
     <div id="coverpic">
         <section>
             <img src="../img/V_Logo_Small.png" alt="">
-            <h1>Division <span>Vitrum</span></h1>
             <h4>Blog</h4>
         </section>
     </div>
@@ -76,7 +75,7 @@
             <div>
                 <h3>Werken met GitHub</h3>
                 <p>Wij werken áltijd met GitHub. Maar wat is GitHub nu precies?</p>
-                <a href="http://localhost/DivisionSite/blog/posts/werken-met-github.php"><button type="button" name="button">Bekijk post</button></a>
+                <a href="http://www.divisionvitrum.com/blog/posts/werken-met-github.php"><button type="button" name="button">Bekijk post</button></a>
             </div>
         </article>
 <!--         <article>
