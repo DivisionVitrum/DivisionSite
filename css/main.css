@@ -408,6 +408,15 @@ nav a#pull {
    background-attachment: scroll !important;
 }
 
+@media screen and (max-width : 960px) {
+   .title_2 h1 {
+      font-size: 2.4rem;
+   }
+   .projectpic2 {
+      background-position-x: 24vw;
+   }
+}
+
 @media screen and (max-width : 600px) {
    nav.navscroll{
       height: 0;
@@ -472,7 +481,7 @@ nav a#pull {
       background-position-x: -40vw;
    }
    .projectpic2{
-      background-position-x: -40vw;
+      background-position-x: -50vw;
    }
 
 }
@@ -523,13 +532,20 @@ nav a#pull {
    }
    /* Over ons */
    #over .over {
-      width: 40vh;
+      width: 50vh;
+   }
+   #over .over p {
+      font-size: 0.8rem;
    }
    footer{
-      margin: 0 0 0 0;;
+      margin: 0 0 0 0;
    }
+   .title_2 h1 {
+      font-size: 3rem;
+   }
+
    .projectpic2{
-      background-position-x: -80vw;
+      background-position-x: -75vw;
    }
 }
 
@@ -552,6 +568,9 @@ nav a#pull {
    #over .over p {
       text-align: justify;
        margin: 0 auto;
+   }
+   .title_2 h1 {
+      font-size: 2.5rem;
    }
 }
 
@@ -610,6 +629,24 @@ RESPONSIVE LANDSCAPE
    }
    h1 {
       margin: 0;
+   }
+   .skill {
+      padding: 2vw 16vw 8vw 8vw;
+   }
+   #over .over {
+      width: 80%;
+   }
+   .title h1 {
+      font-size: 2.5rem;
+   }
+   .post_2 .title_2 {
+      padding: 5vh 0 1vh 0;
+   }
+   .post .title {
+      padding: 5vh 0 1vh 0;
+   }
+   footer {
+      margin: -20px 0px 0px;
    }
 }
 
