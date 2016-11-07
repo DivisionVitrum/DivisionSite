@@ -1,7 +1,10 @@
 window.addEventListener('load', init);
 
 function init() {
-
+    $(window).scroll(function(){
+        document.webkitExitFullscreen();
+        document.exitFullscreen();
+    });
 }
 
 // Mobiele afbeeldingen fix
