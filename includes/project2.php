@@ -1,7 +1,7 @@
 <aside class="">
-    <div class="flexrow">
-        <div class="post">
-            <div class="title">
+    <div class="flexrow_2">
+        <div class="post_2">
+            <div class="title_2">
                 <h1>Zij & ik entertainment</h1>
                 <sub></sub>
             </div>

@@ -9,7 +9,7 @@
                 <sub></sub>
             </div>
             <h2>Responsive website</h2>
-            <p>Voet en Los was ons eerste project, nu we achteraf terugkijken zijn we in een half jaar tijd ver gekomen en hebben we veel kennis opgedaan.
+            <p>Voet en Los is een bedrijf in Hellevoetsluis waar je pedicures en heerlijke masages kan krijgen. Bekijk de website voor meer informatie!
             </p>
             <a href="http://www.voetenlos.nl/" target="_blank">
                 <button type="button" name="button">Bekijk de website</button>
