@@ -52,7 +52,6 @@
         <li><a href="#over" id="main">Over</a></li>
         <li><a href="#team" id="main">Team</a></li>
         <li><a href="#projecten" id="main">Projecten</a></li>
-        <li><a href="#blog" id="main">Blog</a></li>
         <li><a href="#contact" id="main">Contact</a></li>
 
         <!-- Responsive menu, wordt getoond op tablet/mobiel -->
@@ -61,7 +60,6 @@
         <li><a href="#over" id="responsiveMenu">Over</a></li>
         <li><a href="#team" id="responsiveMenu">Team</a></li>
         <li><a href="#projecten" id="responsiveMenu">Projecten</a></li>
-        <li><a href="#blog" id="responsiveMenu">Blog</a></li>
         <li><a href="#contact" id="responsiveMenu">Contact</a></li>
     </ul>
     <a href="#" id="pull">
@@ -81,6 +79,7 @@
         <h1>Division <span>Vitrum</span></h1>
     </section>
 </header>
+
 <!-- Uitgelicht -->
 <section id="uitgelicht">
     <div class="container">
@@ -187,11 +186,6 @@
 </section>
 <section id="projecten">
     <?php include "includes/project.php" ?>
-</section>
-
-<!-- Blog section -->
-<section class="odd" id="blog">
-    <?php include "includes/blog.php" ?>
 </section>
 
 <!-- Contact -->
