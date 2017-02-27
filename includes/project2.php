@@ -6,9 +6,9 @@
                 <sub></sub>
             </div>
             <h2>Responsive website + design</h2>
-            <p>Een website voor een komisch duo. Momenteel zijn we nog bezig met deze website!
+            <p>Carlie Spruijt en Eva Opperman zijn samen Zij en Ik, een kleinkunstduo; jong, nuchter & amibiteus. Bekijk nu de website!
             </p>
-            <a href="http://www.zijenik.nl/" target="_blank">
+            <a href="http://www.zijenikentertainment.nl/" target="_blank">
                 <button type="button" name="button">Bekijk de website</button>
             </a>
         </div>
